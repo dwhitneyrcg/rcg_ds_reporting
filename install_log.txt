@@ -1,0 +1,8 @@
+﻿uv : Audited 442 packages in 292ms
+At line:1 char:112
++ ... ks\rcg_ds_reporting"; uv pip install -r requirements.txt 2>&1 | Out-F ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Audited 442 packages in 292ms:Str 
+   ing) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
