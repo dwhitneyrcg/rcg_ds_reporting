@@ -1,0 +1,20 @@
+# The main pipeline for ds_reporting_dbricks
+
+resources:
+  pipelines:
+    ds_reporting_dbricks_etl:
+      name: ds_reporting_dbricks_etl
+      catalog: ${var.catalog}
+      schema: ${var.schema}
+      serverless: true
+      root_path: "../src/ds_reporting_dbricks_etl"
+
+      libraries:
+        - glob:
+            include: ../src/ds_reporting_dbricks_etl/transformations/**
+
+      environment:
+        dependencies:
+          # We include every dependency defined by pyproject.toml by defining an editable environment
+          # that points to the folder where pyproject.toml is deployed.
+          - --editable ${workspace.file_path}
