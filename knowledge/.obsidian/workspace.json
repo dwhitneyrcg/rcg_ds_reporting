@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "dc97c8d83ff75604",
+    "type": "split",
+    "children": [
+      {
+        "id": "25d23f66baddb814",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92e5ab666aa63f2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "biz_areas/axiom_generative-ai_seats_(hotel_ops,_consumer_insights,_legal)/division-level_medallia_reports/overview_division-level_medallia_reports.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview_division-level_medallia_reports"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "afe33c86bf301c1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1423165b51480e80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99efb58afbbfd1da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b395444b9b40e1bd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4444e0cd4c57381a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "96b737b2d0134217",
+    "type": "split",
+    "children": [
+      {
+        "id": "502f9bc81071f5ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "711f854e685542cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "biz_areas/pcp_pricing_automation_(rci_cel)/automated_pricing_expansion/overview_automated_pricing_expansion.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for overview_automated_pricing_expansion"
+            }
+          },
+          {
+            "id": "7d8b2ef1df22410e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "biz_areas/pcp_pricing_automation_(rci_cel)/automated_pricing_expansion/overview_automated_pricing_expansion.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from overview_automated_pricing_expansion"
+            }
+          },
+          {
+            "id": "d9c771880f35cf33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cf801ca0ac9ea4c6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8c3c492ba165a47e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "biz_areas/pcp_pricing_automation_(rci_cel)/automated_pricing_expansion/overview_automated_pricing_expansion.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of overview_automated_pricing_expansion"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "92e5ab666aa63f2c",
+  "lastOpenFiles": [
+    "reporting/weekly_updates_raw_md/20250530 - Raw Weekly Reporting (Raw).md",
+    "reporting/weekly_updates_summarized_md/20240419 - Weekly Update.md",
+    "reporting/weekly_updates_raw_md/20260313 - Weekly Matt & Rafeh Update (Raw).md",
+    "reporting/weekly_updates_summarized_md/20260313 - Weekly Rafeh and Matt Updates.md",
+    "biz_areas/axiom_generative-ai_seats_(hotel_ops,_consumer_insights,_legal)/division-level_medallia_reports/overview_division-level_medallia_reports.md",
+    "biz_areas/business_active_projects_master.md",
+    "repositories/rma/OVERVIEW_INVENTORY-dbricks.md",
+    "repositories/rma/DIAGRAM_SPI-dbricks.md",
+    "repositories/rma/DIAGRAM_INVENTORY-dbricks.md",
+    "repositories/rma/DIAGRAM_PRE-dbricks.md",
+    "reporting/weekly_updates_summarized_md/20240308 - Weekly Matt Update.md",
+    "reporting/weekly_updates_raw_md/20250620 - Raw Weekly Matt and Rafeh Reporting.md",
+    "reporting/weekly_updates_raw_md/20250523 - Raw Weekly Update (Raw).md",
+    "reporting/weekly_updates_raw_md/20250516 - Raw Weekly Rafeh and Matter Reporting (Raw).md",
+    "biz_areas/win-on-waste_(hotel_operations)/advancement_in_automation/overview_advancement_in_automation.md",
+    "biz_areas/pcp_pricing_automation_(rci_cel)/perfect_day_product_pricing/overview_perfect_day_product_pricing.md",
+    "biz_areas/pcp_pricing_automation_(rci_cel)/overview_pcp_pricing_automation_(rci_cel).md",
+    "biz_areas/business_areas_master.md",
+    "biz_areas/pcp_pricing_automation_(rci_cel)/automated_pricing_expansion/overview_automated_pricing_expansion.md",
+    "reporting/weekly_updates_raw_md/20250613 - Raw Weekly Matt and Rafeh Report.md",
+    "biz_areas/hr/overview_hr.md",
+    "repositories/rma/OVERVIEW_PRE-dbricks.md",
+    "repositories/rma/OVERVIEW_TAP-RCI-dbricks.md",
+    "repositories/rma/OVERVIEW_SPI-dbricks.md",
+    "repositories/rma/DIAGRAM_TAP-RCI-dbricks.md",
+    "repositories/rma/DIAGRAM_TAP-CEL-dbricks.md",
+    "repositories/rma",
+    "repositories/New folder",
+    "repositories",
+    "New folder",
+    "Untitled.base",
+    "reporting/weekly_updates_summarized_md/Highlights",
+    "reporting/weekly_updates_summarized_md/New folder",
+    "reporting/weekly_updates_summarized_md",
+    "reporting/weekly_updates_raw_md",
+    "reporting/process_weekly_updates.py"
+  ]
+}

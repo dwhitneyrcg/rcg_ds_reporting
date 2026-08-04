@@ -318,6 +318,7 @@ python-dotenv==1.2.2
 python-editor==1.0.4
 python-json-logger==3.2.1
 python-lsp-jsonrpc==1.1.2
+rapidfuzz==3.14.5
 python-lsp-server==1.12.0
 python-snappy==0.7.3
 pytoolconfig==1.2.6

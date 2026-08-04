@@ -1,0 +1,1422 @@
+{
+"report": "20260109 - Weekly Rafeh & Matt Updates (Raw).md",
+"date": "2026-01-09",
+"blocks": [
+{
+"id": 1,
+"text": "**Mert**"
+},
+{
+"id": 2,
+"text": "MIAP"
+},
+{
+"id": 3,
+"text": "Identified a total of 54K/month active energy deviation across several ships, with cost to date of $1.1M."
+},
+{
+"id": 4,
+"text": "Resolved identified issues onboard Quantum-class ships, resulting in 150K cost savings. Continuing work on remaining ships and collaborating with the HVAC technical team and shipboard engineers. Total MIAP savings increased to 6.9M."
+},
+{
+"id": 5,
+"text": "Developed and productionized a data-trending tool on the MIAP app that leverages the MIAP API to quickly build visualizations from selected variables, including ship-to-ship comparison and real-time data streaming."
+},
+{
+"id": 6,
+"text": "Presented the data-trending tool to the Newbuild Maritime Technology team together with Energy Management."
+},
+{
+"id": 7,
+"text": "Met with C3.ai to understand their capabilities and agreed to a follow-up session for drydock project optimization."
+},
+{
+"id": 8,
+"text": "Started implementing custom agentic AI solutions hosted on the MIAP API, with a library of tools, dedicated agents, and a supervisor-agent architecture using LangChain/LangGraph/FastAPI. This will establish the foundation for custom AI agents for marine/new-build projects, with expert agents for HVAC, machinery, hotel, fresh water systems, and other areas."
+},
+{
+"id": 9,
+"text": "Met with Risk Management and Corporate Strategy teams to align the agenda for a larger meeting to discuss the future of Project TIDE for claims management."
+},
+{
+"id": 10,
+"text": "Ram"
+},
+{
+"id": 11,
+"text": "MIAP"
+},
+{
+"id": 12,
+"text": "Deployed a fix for the Bronze Valmet job by adjusting Spark partitions."
+},
+{
+"id": 13,
+"text": "Updated dependencies in the MIAP ETL for the Bronze Valmet job."
+},
+{
+"id": 14,
+"text": "Implemented code to load Modbus data; mapping information is still needed, but the code implementation is complete."
+},
+{
+"id": 15,
+"text": "Implemented code to load data from a Kafka topic directly into the silver table, avoiding intermediate data movement, reducing latency, and lowering storage costs."
+},
+{
+"id": 16,
+"text": "Fixed a data-type issue in the MIAP API that occurred when a low value was transmitted as an int and implemented the necessary changes."
+},
+{
+"id": 17,
+"text": "Next week"
+},
+{
+"id": 18,
+"text": "Deploy the streaming shipboard job changes to production."
+},
+{
+"id": 19,
+"text": "Identify and implement mappings for Modbus and deploy them to production."
+},
+{
+"id": 20,
+"text": "Brendan"
+},
+{
+"id": 21,
+"text": "MIAP"
+},
+{
+"id": 22,
+"text": "Fixed a bug in the Fuel Forecast API that prevented simulations from working with default parameters."
+},
+{
+"id": 23,
+"text": "Investigated MIAP REST API chargeback to vendors (with Ram): created a query to get SQL Warehouse costs, derived a formula to calculate pro-rated cost per user based on REST API logs, and identified gaps in the existing Azure costs table that prevent project-level cost accounting. Ram and I will work with the platform team to find a solution."
+},
+{
+"id": 24,
+"text": "Mahshad"
+},
+{
+"id": 25,
+"text": "MIAP"
+},
+{
+"id": 26,
+"text": "Worked on an issue in the Digital Twin function."
+},
+{
+"id": 27,
+"text": "Conducted self-directed learning on AI agents to automate anomaly detection."
+},
+{
+"id": 28,
+"text": "Began developing a report-generation pipeline for the MIAP app."
+},
+{
+"id": 29,
+"text": "Arya"
+},
+{
+"id": 30,
+"text": "Identified data issues with IC in the ETL."
+},
+{
+"id": 31,
+"text": "Identified tag-mapping issues related to lube oil."
+},
+{
+"id": 32,
+"text": "Researched implementation of online dynamic model decomposition."
+},
+{
+"id": 33,
+"text": "Updated SFOC models."
+},
+{
+"id": 34,
+"text": "Will"
+},
+{
+"id": 35,
+"text": "MIAP"
+},
+{
+"id": 36,
+"text": "Completed planning (created a Markdown file of the math) for the LNG optimizer and conducted a detailed review with Mert."
+},
+{
+"id": 37,
+"text": "Standardized notation, units, and variable names across code and documentation to remove convention mismatches."
+},
+{
+"id": 38,
+"text": "Corrected mathematical errors and updated derivations; validated objective functions and constraints."
+},
+{
+"id": 39,
+"text": "Began implementing the documented LNG optimization in code."
+},
+{
+"id": 40,
+"text": "Reza"
+},
+{
+"id": 41,
+"text": "MIAP"
+},
+{
+"id": 42,
+"text": "Worked on the Digital Twin / Fuel Forecast performance pipeline, including:"
+},
+{
+"id": 43,
+"text": "Debugged an overestimation issue in the SFOC models and explained the cause to the assigned team member so they can correct the dynamic-model weights."
+},
+{
+"id": 44,
+"text": "Debugged a problem in the time and/or distance columns of the silver_deployment.legs table that caused elevated speed values during the maneuvering phase and led to optimization failures; met with Alex Moss from the Deployment Systems & Analytics team to discuss the issue and potential solutions."
+},
+{
+"id": 45,
+"text": "Deployed the workflow to the development environment for testing."
+},
+{
+"id": 46,
+"text": "Held initial discussions on the output dashboard format for the MIAP web app. Next steps: continue debugging and develop dashboard concepts before pushing them to the MIAP web app."
+},
+{
+"id": 47,
+"text": "Erick"
+},
+{
+"id": 48,
+"text": "**Axiom****/Medallia **"
+},
+{
+"id": 49,
+"text": "**Meta Data Extraction**"
+},
+{
+"id": 50,
+"text": "David M. (working for Erick) is working on migrating the topic labeling process to the new meta data generation framework. This will be a faster, cheaper, smarter approach to labeling medallia comments."
+},
+{
+"id": 51,
+"text": "David M. is working on a pipeline to create quantized embeddings on all medallia comments which will serve several downstream use cases. One use case will is a new tool in the Axiom web app which will allow users to explore comments using network graphs."
+},
+{
+"id": 52,
+"text": "Erick"
+},
+{
+"id": 53,
+"text": "**Axiom****/Medallia **"
+},
+{
+"id": 54,
+"text": "**Reporting**"
+},
+{
+"id": 55,
+"text": "Erick delivered the first Silversea AI email in December. Several points of feedback were given and will be working to make improvements/modifications."
+},
+{
+"id": 56,
+"text": "Erick is working on automation of Division level email templates (Distribution list for Fleet detractor report: Raimund Gschaider, Jocelyn Lloret, Joao Mendonca, Richard Nentwich, christos Karavos, Nayoung Kim, IVELIN HRISTOV, FERNANDO CRAVO JORGE, Andreas Zachariou)."
+},
+{
+"id": 57,
+"text": "Erick scraped 3 websites to extract Celebrity and Royal ship level information. This will be used as context for the new meta data generation framework that David M. implemented."
+},
+{
+"id": 58,
+"text": "Osvaldo, under Erick, documented all of his work for Genie and has merged his work with prod. Genie is pending business review."
+},
+{
+"id": 59,
+"text": "Erick"
+},
+{
+"id": 60,
+"text": "**Axiom****/Medallia **"
+},
+{
+"id": 61,
+"text": "Danusio, under Erick, is working on delivering a Shorex Safety report for legal identifying safety related comments found in medallia comments."
+},
+{
+"id": 62,
+"text": "Danusio is working on delivering a report for Legal summarizing guest feedback related to misrepresented pricing, offers, and deals."
+},
+{
+"id": 63,
+"text": "Danusio & Rodrigo are both working on a pipeline/tool for ad hoc topic exploration to be used by CEL Consumer Insights. Approach 1 will use LLMs for clustering and Approach 2 will use BertTopic for clustering. This tool can be thought of as a way to automatically cluster, classify, and aggregate the topics in a given document."
+},
+{
+"id": 64,
+"text": "Erick"
+},
+{
+"id": 65,
+"text": "**Axiom****/Medallia **"
+},
+{
+"id": 66,
+"text": "Rodrigo, under Erick, has finalized his work on the Port-of-call report. The biggest blocker is the data mismatch between Unity Catalog and Medallia which is being explored by data engineering."
+},
+{
+"id": 67,
+"text": "Rodrigo is working on a new version of Shorex Marketing \"Verbatims\" that exemplify what consumers are telling us about their experiences on shore excursions. This could be used as novel marketing material placed on the web/app for guests such as \"Guests love the views from the tour bus.\""
+},
+{
+"id": 68,
+"text": "Rodrigo is working on a report for Nassau Beach Club aggregating all feedback we receive related to the new shorex."
+},
+{
+"id": 69,
+"text": "Rodrigo implemented the ability to save ALL of our email reports to sharepoint."
+},
+{
+"id": 70,
+"text": "Erick"
+},
+{
+"id": 71,
+"text": "**Axiom****/Medallia **"
+},
+{
+"id": 72,
+"text": "**Modeling**"
+},
+{
+"id": 73,
+"text": "Osvaldo is working on the Medallia Drivers model. Model has been trained and Osvaldo is performing extensive EDA on SHAP scores."
+},
+{
+"id": 74,
+"text": "David M. is working on a Guest Log level classification model for cleaning up old topics to conform with new topic standards (over 1400 topics/subtopics make this task very difficult)"
+},
+{
+"id": 75,
+"text": "**Erick & Christian**"
+},
+{
+"id": 76,
+"text": "**MyCruise**** Recommender**"
+},
+{
+"id": 77,
+"text": "**Project Updates**"
+},
+{
+"id": 78,
+"text": "Cristian is actively reviewing how prior recommendations testing was performed including reviewing code, rewriting code, and building an intuition around the data and aggregations. Lots of effort has gone into translating R code into Python and questioning assumptions. Cristian will be holding a review session with the broader team on Friday the 9th to review his current approach and gain feedback."
+},
+{
+"id": 79,
+"text": "We still need to align with Digital engineering on where and how Stage data will be used during QA for calendar recommendations."
+},
+{
+"id": 80,
+"text": "**Cihan**"
+},
+{
+"id": 81,
+"text": "**PCP Pricing Automation: ****OBR Waterpark**"
+},
+{
+"id": 82,
+"text": "OBR Waterpark PRE (Owner: Gang Wang)"
+},
+{
+"id": 83,
+"text": "Completed/In Progress:"
+},
+{
+"id": 84,
+"text": "First PRE version was consistently hitting highest constraints; focused on improving the model and features."
+},
+{
+"id": 85,
+"text": "Added Celebrity sailings to the dataset."
+},
+{
+"id": 86,
+"text": "Simplified ship-class feature to a single column (count of Icon/Oasis ships at CocoCay for the tour date)."
+},
+{
+"id": 87,
+"text": "Grouped meta products into long (\u22657 nights) vs short; reduced from three columns to two."
+},
+{
+"id": 88,
+"text": "Applied target encoding to WTS bins and sailing_season (peak/holiday/summer/etc.)."
+},
+{
+"id": 89,
+"text": "Included forecasted total pax per sailing to estimate expected demand at CocoCay on the tour date."
+},
+{
+"id": 90,
+"text": "Tested multiple constraint sets and initializations to reduce boundary hits."
+},
+{
+"id": 91,
+"text": "Next:"
+},
+{
+"id": 92,
+"text": "Re-run optimization with revised features/constraints and report boundary-hit reduction and forecast stability metrics."
+},
+{
+"id": 93,
+"text": "Cihan"
+},
+{
+"id": 94,
+"text": "RoyalOne Community: Digital \u2013 Guest Services Chatbot (Owner: Eunha Kim)"
+},
+{
+"id": 95,
+"text": "Pending:"
+},
+{
+"id": 96,
+"text": "Stakeholder to deliver escalation pattern definitions based on the provided sample dataset."
+},
+{
+"id": 97,
+"text": "Next:"
+},
+{
+"id": 98,
+"text": "Convert stakeholder patterns into labeling/feature rules and proceed to initial training once received."
+},
+{
+"id": 99,
+"text": "Mirielle"
+},
+{
+"id": 100,
+"text": "Contact Center: Lead Prioritization"
+},
+{
+"id": 101,
+"text": "LP Meeting: CVP Duplicate Leads, Web Chat Lead Delay, IDS Power BI Report"
+},
+{
+"id": 102,
+"text": "Outcome:"
+},
+{
+"id": 103,
+"text": "Duplicate lead behavior stems from guest actions creating multiple distinct booking IDs across time; production workflow functioning as designed."
+},
+{
+"id": 104,
+"text": "Next:"
+},
+{
+"id": 105,
+"text": "Augusto and product teams to drive follow-ups; data team available for additional diagnostics as needed."
+},
+{
+"id": 106,
+"text": "Mirielle"
+},
+{
+"id": 107,
+"text": "Contact Center: Workforce Planning \u2013 North America (12 LOBs)"
+},
+{
+"id": 108,
+"text": "Scope:"
+},
+{
+"id": 109,
+"text": "Key Scope is that Mirielle is working on building a competitive demand forecasting model for North America, which would replace the rules model in production."
+},
+{
+"id": 110,
+"text": "LOBs: CO_GROUPS_SALES, CO_GROUPS_SERVICE, GEM, CE_SALES, LOYALTY, STAR, GROUPS, CASINO_SERVICES, CO_SALES, CASINO_SALES, RES, CO_CE_SERVICES."
+},
+{
+"id": 111,
+"text": "Data: Train/test time split with 20% test (2023-01-01 to 2025-10-31); backtesting window through 2025-12-31."
+},
+{
+"id": 112,
+"text": "Modeling/Evaluation:"
+},
+{
+"id": 113,
+"text": "Models: LightGBM, XGBoost, CatBoost, HistGradientBoosting (selectable via models_to_run)."
+},
+{
+"id": 114,
+"text": "Features: Calendar/holiday proximity, weekend/holiday interactions, lag/rolling stats, trend/volatility; optional AHT features when present."
+},
+{
+"id": 115,
+"text": "Metrics: R\u00b2, MAE, RMSE, MAPE consolidated and compared per LOB; best model flagged per LOB."
+},
+{
+"id": 116,
+"text": "Visualization: Four-panel dashboard (metrics, residuals, actual vs fitted, actual vs forecast) plus history/forecast overlays; published from VS Code to Azure Container Instances."
+},
+{
+"id": 117,
+"text": "Tuning: Focused hyperparameter sweeps with early stopping for underperforming LOBs; tracked versus baseline."
+},
+{
+"id": 118,
+"text": "Next:"
+},
+{
+"id": 119,
+"text": "Complete backtests for all 12 LOBs; integrate AHT where available; circulate dashboard links and per-LOB readouts."
+},
+{
+"id": 120,
+"text": "Caleb"
+},
+{
+"id": 121,
+"text": "Customer Lifetime Value (CLV)"
+},
+{
+"id": 122,
+"text": "In Progress:"
+},
+{
+"id": 123,
+"text": "Co-developed a 2026 CLV Plan (POC improvements, full build timeline, future scoping, brand engagement, sizing potential analyses)."
+},
+{
+"id": 124,
+"text": "Created slides detailing celebration analysis procedures: MECE lenses, cross-cuts, KPIs, and initial findings."
+},
+{
+"id": 125,
+"text": "Running deeper analysis with stratification to control for premium inventory confounders using decision trees, ANOVA, and regressions; objective is actionable insights to increase celebrators via selective offerings, marketing, or bundling."
+},
+{
+"id": 126,
+"text": "Built an ETL cost methodology workbook; proposal to move from ship class/month costs to voyage-level ship costs."
+},
+{
+"id": 127,
+"text": "Next:"
+},
+{
+"id": 128,
+"text": "Finalize POC enhancements with Liz\u2019s team; prepare insights/recommendations for Figgis and outline brand-specific pilots."
+},
+{
+"id": 129,
+"text": "Carlos"
+},
+{
+"id": 130,
+"text": "Ecommerce Customer Targeting"
+},
+{
+"id": 131,
+"text": "Completed/In Progress:"
+},
+{
+"id": 132,
+"text": "Implemented gating in feature engineering to skip full processing for low booking propensity consumers; expected \u226530% compute reduction (pending production enablement)."
+},
+{
+"id": 133,
+"text": "Resolved production pipeline memory overflow errors; improved stability."
+},
+{
+"id": 134,
+"text": "Presented enhanced booking propensity drivers report to ecommerce stakeholders."
+},
+{
+"id": 135,
+"text": "Next:"
+},
+{
+"id": 136,
+"text": "Enable gating in production; monitor compute savings and performance; refresh drivers report with next data update."
+},
+{
+"id": 137,
+"text": "Ben & Camila"
+},
+{
+"id": 138,
+"text": "Supply Chain"
+},
+{
+"id": 139,
+"text": "Medical/CocoCay/Uniforms Models"
+},
+{
+"id": 140,
+"text": "Goals: Improve medical MdAPE before guardrails by \u226510%; treat sparse product predictions separately."
+},
+{
+"id": 141,
+"text": "Completed:"
+},
+{
+"id": 142,
+"text": "RCI/CCI Min\u2013Max Par Volatility Report delivered."
+},
+{
+"id": 143,
+"text": "Base SSC Uniforms model using crew data (for more accurate actuals and predictions)."
+},
+{
+"id": 144,
+"text": "get-model-error and challenger model notebooks updated for medical and CocoCay."
+},
+{
+"id": 145,
+"text": "In Progress:"
+},
+{
+"id": 146,
+"text": "Uniforms challenger model path: array-type product fields complicate joins; building a modified unpivoted backtested table (v1) and extending to v5/v6 with crew attributes (cost center, contract length) and similar products mapping."
+},
+{
+"id": 147,
+"text": "\u201cLast Updated Dev Datascience Tables\u201d for Yan and team to improve efficiency."
+},
+{
+"id": 148,
+"text": "Awaiting feedback from Yan on consolidated Royal/Celebrity/Silversea tables (regions + predictions; same products across brands mapping)."
+},
+{
+"id": 149,
+"text": "Next:"
+},
+{
+"id": 150,
+"text": "Complete unpivot strategy for uniforms; integrate crew attributes; publish accuracy deltas; incorporate Yan\u2019s feedback on consolidated tables."
+},
+{
+"id": 151,
+"text": "Ben"
+},
+{
+"id": 152,
+"text": "Supply Chain"
+},
+{
+"id": 153,
+"text": "Silversea Cruises 2026 Demand Forecasting \u2014 White Paper v1.0 (Ready to Execute)"
+},
+{
+"id": 154,
+"text": "Objective:"
+},
+{
+"id": 155,
+"text": "Adapt RCI/CCI 2026 feature engineering and RFECV validation to SSC\u2019s luxury/expedition context; target MdAPE \u22642.5%."
+},
+{
+"id": 156,
+"text": "Scope/Features:"
+},
+{
+"id": 157,
+"text": "296 candidate features (62 baseline, 108 enhancements, 84 SSC luxury/expedition, 30 RFECV-derived, 12 SSC-exclusive nationality features)."
+},
+{
+"id": 158,
+"text": "MAIN_STORE-based category schema across 11 SSC ships; voyage-level scaling and expedition features."
+},
+{
+"id": 159,
+"text": "Methodology:"
+},
+{
+"id": 160,
+"text": "RFECV via Probatus (SHAP-based ranking), multi-period validation (5 sequential periods), cost-weighted MAPE to prioritize high-value products, leakage prevention via 1-week exclusive windows."
+},
+{
+"id": 161,
+"text": "Implementation Phases & Timeline:"
+},
+{
+"id": 162,
+"text": "Phase 1 Feature Engineering (3\u20134 days), Phase 2 RFECV (2\u20133 days), Phase 3 Backtesting (1\u20132 days), Phase 4 Production Integration (2\u20133 days), Phase 5 ADF Integration (1 day). Total 9\u201313 business days; RFECV compute ~10\u201315 hours on LS_IBP_JC_BIG."
+},
+{
+"id": 163,
+"text": "Success Criteria:"
+},
+{
+"id": 164,
+"text": "MdAPE \u22642.5%; 70\u2013100 stable features (\u22654/5 periods); feature stability \u226580%; no regressions vs 2025 baseline."
+},
+{
+"id": 165,
+"text": "Decisions (Resolved in plan):"
+},
+{
+"id": 166,
+"text": "Use 1-week exclusive leakage-safe windows; prioritize via cost-weighted RFECV; train Silver Ray on its own 18+ months of data; initial target MdAPE 2.5%."
+},
+{
+"id": 167,
+"text": "Next:"
+},
+{
+"id": 168,
+"text": "Kick off Phase 1: implement SSC_V6 feature modules, MAIN_STORE mappings, SSC nationality features; prepare RFECV sampling and backtest periods."
+},
+{
+"id": 169,
+"text": "Ben & Camila"
+},
+{
+"id": 170,
+"text": "Supply Chain"
+},
+{
+"id": 171,
+"text": "ESG Proration & Finance Tool MAPE Implementation (Celebrity Beyond Pilot Preparation)"
+},
+{
+"id": 172,
+"text": "Delivered:"
+},
+{
+"id": 173,
+"text": "ESG demand proration with checkpoint-derived weights normalized to conserve demand (sum to 1.0)."
+},
+{
+"id": 174,
+"text": "Finance Tool MAPE alignment to Write_Parquet_Files (ABS error over ACTUALS \u00d7 100; robust zero handling)."
+},
+{
+"id": 175,
+"text": "Stub records for forecasted products without consumption to close coverage gaps."
+},
+{
+"id": 176,
+"text": "Results:"
+},
+{
+"id": 177,
+"text": "Forecast coverage gap reduced from ~$100M to <$10M (target \u2264$5M)."
+},
+{
+"id": 178,
+"text": "Voyage-level MdAPE (Nov 2025, core categories): ~14.5% (1M), ~15.2% (2M), ~15.9% (3M), ~16.7% (6M), ~21.2% (12M)."
+},
+{
+"id": 179,
+"text": "Product\u00d7Ship\u00d7Month MdAPE: ~9\u201315% across horizons; category example (1M): Beverage ~14.9%, Food ~20.8%, Consumables ~38.8%, Replaceables ~56.5%."
+},
+{
+"id": 180,
+"text": "Technical Notes:"
+},
+{
+"id": 181,
+"text": "ESG effective date split: ETL applies proration for WRITE_DATE \u2265 2025-12-20; historical notebook applies retroactively for prior dates to avoid double-processing."
+},
+{
+"id": 182,
+"text": "Weights derived from most recent checkpoint, aggregated weekly-to-monthly to match finance granularity; robust aliasing/casting to prevent union/join errors."
+},
+{
+"id": 183,
+"text": "Next:"
+},
+{
+"id": 184,
+"text": "Execute Celebrity Beyond finance pilot; monitor proration weight freshness and accuracy alignment; prepare routine reporting on MdAPE and coverage."
+},
+{
+"id": 185,
+"text": "Ignacio"
+},
+{
+"id": 186,
+"text": "PCP Pricing Automation"
+},
+{
+"id": 187,
+"text": "**Ignacio Villasmil**"
+},
+{
+"id": 188,
+"text": "**OBR | Back****-end checks on source data for OBR \u2013 JAN**"
+},
+{
+"id": 189,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 190,
+"text": "Comments:\u00a0*Status*: This ticket is complete as of 11/??/2025. Deliverables: ??? Delays: Waiting for DE to change the source table from a view only table & optimize it in order to use it better for proper back-end checks on the source data. Potential future issue: None."
+},
+{
+"id": 191,
+"text": "\u201cAB testing automation is basically the same project Ignacio and Jesse are working on, but I'm waiting on Jesse to finish his part so that I can work on like unit testing and everything. So that's that ticket I'm basically\u2026 Because I need there needs, there needs to be a in a bridge between what Jesse's doing and what Ignacio's doing.\u201d"
+},
+{
+"id": 192,
+"text": "**OBR | BUG | Alaska ****ShoreX**** inconsistent source data**"
+},
+{
+"id": 193,
+"text": "Scope: 3.0 story points"
+},
+{
+"id": 194,
+"text": "Comments: Duplicate product codes fixed; corrected average price calculations to exclude zero-price bookings; adjustments made to Daily FS & Binned FS; DE team to verify remaining inconsistencies."
+},
+{
+"id": 195,
+"text": "**OBR | Create Continuous A/B Testing Framework \u2013 JAN**"
+},
+{
+"id": 196,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 197,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 198,
+"text": "\u201cDependency noted on Jesse\u2019s work and Kartik\u2019s unit testing bridge.\u201d"
+},
+{
+"id": 199,
+"text": "**Aagam Shah**"
+},
+{
+"id": 200,
+"text": "**RCI Revenue Management**"
+},
+{
+"id": 201,
+"text": "**DUAL | GTY****-Lead 2.0 \u2013 handoff & maintenance**"
+},
+{
+"id": 202,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 203,
+"text": "Comments: Acceptance Criteria: GTY-Lead 2.0 handoff completed successfully; Maintenance plan documented and implemented; No critical issues remain."
+},
+{
+"id": 204,
+"text": "\u201cSitting with Michelle almost seven hours out of eight, understanding what exactly is happening in the code, how it affects the business, and maybe what changes we have to make.\u201d"
+},
+{
+"id": 205,
+"text": "**PRE \u2013 Logic Analysis (RCI | Basket Logic Enhancements)**"
+},
+{
+"id": 206,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 207,
+"text": "Comments: Acceptance Criteria: PRE logic analysis completed; Findings documented and shared; Recommendations provided."
+},
+{
+"id": 208,
+"text": "\u201cStill not sure what exactly we have to do over there, but I'll talk to Kevin maybe starting next week once I'm more or less done with the category gapping part.\u201d"
+},
+{
+"id": 209,
+"text": "**MTRB 2.0 \u2013 Curve fitting / Cat****-class SPI integration**"
+},
+{
+"id": 210,
+"text": "Scope: 3.0 story points"
+},
+{
+"id": 211,
+"text": "Comments: Curve fitting functions aggregating at meta product level need to change to ensure cat-class granularity is added."
+},
+{
+"id": 212,
+"text": "\u201cMost of my time I'm focusing on understanding the category delete gap and oh sorry, category gapping from Michelle. Just understanding the code, seeing the areas where I might have to jump in to help Monica out.\u201d"
+},
+{
+"id": 213,
+"text": "**Douglas Bedell**"
+},
+{
+"id": 214,
+"text": "**CEL Revenue Management**"
+},
+{
+"id": 215,
+"text": "**RCG | PRE Common Core Price Upload Facility \u2013 JAN**"
+},
+{
+"id": 216,
+"text": "Scope: 8.0 story points"
+},
+{
+"id": 217,
+"text": "Comments: Combine RCI and Celebrity PRE price uploads into one single process. Remove all remaining Oracle dependencies. Ensure all uploads are using the RMA price upload via DE table and trigger files."
+},
+{
+"id": 218,
+"text": "\u201cMassive ticket; some work will roll into February. Identified issue with Elasticity 4.0 code not running correctly in dev environment; permissions fixed; retested successfully.\u201d"
+},
+{
+"id": 219,
+"text": "**CEL | Perks Gap Test \u2013 Monitoring & Final Findings (JAN)**"
+},
+{
+"id": 220,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 221,
+"text": "Comments: Continue monitoring of the Perks Gap Test. Present final findings from test results."
+},
+{
+"id": 222,
+"text": "\u201cMonitoring sample size differences; investigating mismatches in ALASKA/NEAR, ASIA/FAR, EUROPE/NEAR, LONG CARIBBEAN/FAR.\u201d"
+},
+{
+"id": 223,
+"text": "**RCG | PRE Codebase**"
+},
+{
+"id": 224,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 225,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 226,
+"text": "\u201cBroader tri-brand codebase consolidation (elasticity, business rules); expected to roll month-to-month.\u201d"
+},
+{
+"id": 227,
+"text": "**Lamis Amer**"
+},
+{
+"id": 228,
+"text": "**RCI Revenue management**"
+},
+{
+"id": 229,
+"text": "**RCI \u2013 Pricing Optimization (JAN)**"
+},
+{
+"id": 230,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 231,
+"text": "Comments: This task extends the November work on price optimization validation and reporting, with a focus on model deployment into production and troubleshooting required during this process."
+},
+{
+"id": 232,
+"text": "\u201cWe had a meeting with Nick early this week and received good feedback. Doing validations and adjustments this week; planning to push to production next week.\u201d"
+},
+{
+"id": 233,
+"text": "**RCI \u2013 Track Optimization: validation & scaling to entire fleet (JAN)**"
+},
+{
+"id": 234,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 235,
+"text": "Comments: Validation and scaling optimization to run on the entire fleet."
+},
+{
+"id": 236,
+"text": "\u201cAlready working on this task; scaling optimization code base for Royal and Celebrity.\u201d"
+},
+{
+"id": 237,
+"text": "**Lamis Amer**"
+},
+{
+"id": 238,
+"text": "**CEL Revenue management**"
+},
+{
+"id": 239,
+"text": "**CEL \u2013 Track Optimization**"
+},
+{
+"id": 240,
+"text": "Scope: 3.0 story points"
+},
+{
+"id": 241,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 242,
+"text": "\u201cCelebrity track optimization is in progress; code base is 90% same as Royal.\u201d"
+},
+{
+"id": 243,
+"text": "**Kartik Ullal**"
+},
+{
+"id": 244,
+"text": "**PCP Pricing Automation**"
+},
+{
+"id": 245,
+"text": "**AB testing automation (sub****-task)**"
+},
+{
+"id": 246,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 247,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 248,
+"text": "\u201cAB testing automation is basically the same project Ignacio and Jesse are working on, but I'm waiting on Jesse to finish his part so that I can work on like unit testing and everything.\u201d"
+},
+{
+"id": 249,
+"text": "**Fix and work through web scraping for OBR team (sub****-task)**"
+},
+{
+"id": 250,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 251,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 252,
+"text": "\u201cThere was some web scraping projects they wanted to work on in the OBR team and I was helping Andrew on the OBR team with that. This is almost done and I'll probably I'll put it finish it up tonight or tomorrow.\u201d"
+},
+{
+"id": 253,
+"text": "**RCI | OBR | Royal Beach Club \u2013 Jan**"
+},
+{
+"id": 254,
+"text": "Scope: 4.0 story points"
+},
+{
+"id": 255,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 256,
+"text": "\u201cI've been moving over to Royal Beach Club stuff now, so a lot of my tickets are gonna be based on Royal Beach Club. Awaiting Kevin to hand over his code to me because once he does that, I'll be working on that and on top of that as well.\u201d"
+},
+{
+"id": 257,
+"text": "**James McFall**"
+},
+{
+"id": 258,
+"text": "**RCI Revenue Management**"
+},
+{
+"id": 259,
+"text": "**RCI \u2013 Inventory KPI Mods (new SPI scoring approach)**"
+},
+{
+"id": 260,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 261,
+"text": "Comments: Current focus: refine the scoring model to provide the most effective SPI possible. Factor models will require more specific requirements from users later."
+},
+{
+"id": 262,
+"text": "Nick was pleased with the improvements on the SPI model and is ready to move on to the factor model(s). \u00a0Huge step and excited he feels comfortable about it."
+},
+{
+"id": 263,
+"text": "**DUAL \u2013 SPI Factor Model (breaking tracking)**"
+},
+{
+"id": 264,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 265,
+"text": "Comments: Same as above; exploratory analysis of factors and relationships to SPI."
+},
+{
+"id": 266,
+"text": "\u201cTeam member had a conflict and could not attend.\u201d"
+},
+{
+"id": 267,
+"text": "**DUAL \u2013 RCI/CEL V2 SPI Scoring Model (JAN)**"
+},
+{
+"id": 268,
+"text": "Scope: 5.0 story points"
+},
+{
+"id": 269,
+"text": "Comments: Refactor and pipeline improvements for SPI scoring."
+},
+{
+"id": 270,
+"text": "\u201cTeam member had a conflict and could not attend.\u201d"
+},
+{
+"id": 271,
+"text": "**Jesse Bausell**"
+},
+{
+"id": 272,
+"text": "**SSC AB testing for PRE**"
+},
+{
+"id": 273,
+"text": "**RCG \u2013 Create robust Power Analysis Framework**"
+},
+{
+"id": 274,
+"text": "Scope: 7.0 story points"
+},
+{
+"id": 275,
+"text": "Comments: No Jira comments."
+},
+{
+"id": 276,
+"text": "Universal A/B Framework"
+},
+{
+"id": 277,
+"text": "Today I presented the latest version of the Universal A/B Framework to Data Science management. In this updated version, I added a power analysis module that takes paired samples and user-supplied inputs to compute the statistical power of said A/B test. It also computes distributions from past samples (included in the input table), which it uses to draw samples for the power analysis. The updated Universal A/B Framework also has modifications that enable \u201cGecko\u201d code to be added to it. Moving forward, I will annotate my code and simplify the user input yaml file to make it accessible to a non-data professional."
+},
+{
+"id": 278,
+"text": "\u201cI finished the robust power analysis framework; spent about seven days on it.\u201d"
+},
+{
+"id": 279,
+"text": "**SSC PRE \u2013 Feature Store Upgrade**"
+},
+{
+"id": 280,
+"text": "Scope: \u2014"
+},
+{
+"id": 281,
+"text": "Comments: Upgrade feature store tables so no data are being dropped. Shift data pipelines from table generators to scripts that update existing tables."
+},
+{
+"id": 282,
+"text": "\u201cNot started yet; will scope when work begins.\u201d"
+},
+{
+"id": 283,
+"text": "**SSC PRE \u2013 PRE Vista Elasticity**"
+},
+{
+"id": 284,
+"text": "Scope: 2.0 story points"
+},
+{
+"id": 285,
+"text": "Comments: Pinpoint a single example of price elasticity in SSC by examining the lowest cabin category, Vistas (VI)."
+},
+{
+"id": 286,
+"text": "\u201cNot working on this right now; may revisit later.\u201d"
+},
+{
+"id": 287,
+"text": "Kevin"
+},
+{
+"id": 288,
+"text": "PCP Pricing Automation"
+},
+{
+"id": 289,
+"text": "Kevin has delivered a Databricks Dashboard with extensive reporting on Royal Beach Club. This includes financial metrics of money made vs forecast (from track) as well as building out prototype automation for pricing recommendations of the Royal Beach Club."
+},
+{
+"id": 290,
+"text": "Glen-Erik"
+},
+{
+"id": 291,
+"text": "PROPEL"
+},
+{
+"id": 292,
+"text": "Resolved Offer delivery delay caused by ship concentration in the same time zone creating a queue for offer creations. Offers were taking up to 7 hours to complete, now back down to 2-3 hours."
+},
+{
+"id": 293,
+"text": "Provided support over the Holidays as ships were having daily offer delivery delay issues due to the above queue."
+},
+{
+"id": 294,
+"text": "Enabled offer templates in dev for all shorex, spa, and raw on 5. Created and tested template for awareness offers for shorex, still work in progress."
+},
+{
+"id": 295,
+"text": "Eswar\u00a0& Javier"
+},
+{
+"id": 296,
+"text": "RCI Revenue Management"
+},
+{
+"id": 297,
+"text": "RMA: Assisted RMA team with code conflict and deployment issues and job run failures."
+},
+{
+"id": 298,
+"text": "Automated Code Review: Created dashboard to track code violations across the entire codebase over time to get a wholistic picture of compliance, rather than focus only on the violations present in the PR. The prior compliance dashboard presented an inaccurate/incomplete picture since it didn't include any of the things that were actually fixed, only the things that weren't and if those were fixed after they were flagged."
+},
+{
+"id": 299,
+"text": "Contact Center"
+},
+{
+"id": 300,
+"text": "**Accomplishments Last 7 days? (Accomplishment + Impact)**"
+},
+{
+"id": 301,
+"text": "Please include project and business impact"
+},
+{
+"id": 302,
+"text": "**SpeechIQ**** to Cresta Transition**"
+},
+{
+"id": 303,
+"text": "Scraped Cresta front-end for blocks and behaviors to identify gaps and align systems."
+},
+{
+"id": 304,
+"text": "Initiated data validation process to ensure all use cases are included for transition."
+},
+{
+"id": 305,
+"text": "Impact: Supports seamless migration from SpeechIQ to Cresta, improving agent guidance and operational consistency."
+},
+{
+"id": 306,
+"text": "**Cresta New Hire Pilot**"
+},
+{
+"id": 307,
+"text": "Implemented a logarithmic model to estimate learning-rate improvements for new hires, showing positive alignment with expectations."
+},
+{
+"id": 308,
+"text": "Reviewed dashboards and pilot results with stakeholders."
+},
+{
+"id": 309,
+"text": "Impact: Accelerates onboarding efficiency and reduces Hold + ACW times, improving overall agent productivity."
+},
+{
+"id": 310,
+"text": "**Cresta Full Rollout & Optimization**"
+},
+{
+"id": 311,
+"text": "Defined KPIs for Phase 2 and advanced call skill mapping for Phase 3."
+},
+{
+"id": 312,
+"text": "Collaborated with Cresta to identify tailored hints/behaviors for Sales departments."
+},
+{
+"id": 313,
+"text": "Impact: Enhances agent performance and optimizes customer interactions across multiple phases."
+},
+{
+"id": 314,
+"text": "**Conversational IVR**"
+},
+{
+"id": 315,
+"text": "Monitored existing IVR solution, noting a significant increase in automation rates due to seasonality."
+},
+{
+"id": 316,
+"text": "Supported Guest Profile API deployment and troubleshooting."
+},
+{
+"id": 317,
+"text": "Impact: Improves call routing efficiency and enhances customer experience."
+},
+{
+"id": 318,
+"text": "**Copilot Migration & Reporting**"
+},
+{
+"id": 319,
+"text": "Supported testing team with creation of test cases for migration."
+},
+{
+"id": 320,
+"text": "Developed best practice guide for bot building and tagging to enable accurate reporting."
+},
+{
+"id": 321,
+"text": "Impact: Lays foundation for robust voice agent performance reporting and operational insights."
+},
+{
+"id": 322,
+"text": "**Generative AI FAQs**"
+},
+{
+"id": 323,
+"text": "Continued prototyping for six approved topics (App, Wi-Fi, Dining, Luggage, Ground Transportation, Beverages)."
+},
+{
+"id": 324,
+"text": "Extended use cases with common questions extracted from Cresta and refined filters in vector database."
+},
+{
+"id": 325,
+"text": "Impact: Reduces call volume by enabling voice-based self-service for common inquiries."
+},
+{
+"id": 326,
+"text": "**Guest Profile API Integration**"
+},
+{
+"id": 327,
+"text": "Secured initial approvals from IT and business; awaiting production readiness."
+},
+{
+"id": 328,
+"text": "Impact: Enables personalized guest experiences and improves data availability for agents."
+},
+{
+"id": 329,
+"text": "**Leadership & Operational Support**"
+},
+{
+"id": 330,
+"text": "Built senior leadership presentation on Contact Center and project status."
+},
+{
+"id": 331,
+"text": "Partnered with IT on disaster recovery planning and coordinated Phase 1 training approach."
+},
+{
+"id": 332,
+"text": "Impact: Strengthens operational resilience and ensures leadership visibility on progress."
+},
+{
+"id": 333,
+"text": "**What is currently being worked? (Task + Expected Impact)**"
+},
+{
+"id": 334,
+"text": "Please list projects and expected outcomes"
+},
+{
+"id": 335,
+"text": "**SpeechIQ**** to Cresta Transition**"
+},
+{
+"id": 336,
+"text": "Presenting data gaps to QA team and driving ingestion of data for parity between systems."
+},
+{
+"id": 337,
+"text": "**Cresta Rollout & Optimization**"
+},
+{
+"id": 338,
+"text": "Monitoring New Hire Pilot and reviewing KPIs for Phase 1 and Phase 2."
+},
+{
+"id": 339,
+"text": "Pulling Phase 1 data for initial analysis to validate rollout methodology."
+},
+{
+"id": 340,
+"text": "Advancing optimization by leveraging SpeechIQ insights for new Cresta behaviors."
+},
+{
+"id": 341,
+"text": "**Copilot Reporting & Migration**"
+},
+{
+"id": 342,
+"text": "Pulling data for Copilot agent reporting and Cresta agent reporting."
+},
+{
+"id": 343,
+"text": "Continuing support for migration testing and refining reporting structure."
+},
+{
+"id": 344,
+"text": "Impact: Enables accurate performance tracking and actionable insights for voice agents."
+},
+{
+"id": 345,
+"text": "**Guest Profile API Integration**"
+},
+{
+"id": 346,
+"text": "Preparing for production testing and Data Warehouse build once API is live."
+},
+{
+"id": 347,
+"text": "**Generative AI FAQs**"
+},
+{
+"id": 348,
+"text": "Continuing prototyping and expanding use cases for voice-based self-service."
+},
+{
+"id": 349,
+"text": "**Research & Insights**"
+},
+{
+"id": 350,
+"text": "Identifying call deflection opportunities through insights for other business units."
+},
+{
+"id": 351,
+"text": "Investigating SMS use cases and efficiencies across FAQs, app, and policies."
+},
+{
+"id": 352,
+"text": "**Operational Support**"
+},
+{
+"id": 353,
+"text": "Developing combined project plan for Cresta production rollout."
+},
+{
+"id": 354,
+"text": "Managing leadership-level presentations and supporting 360Learning implementation for training accuracy."
+}
+]
+}
