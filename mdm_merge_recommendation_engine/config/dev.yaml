@@ -1,0 +1,5 @@
+environment: dev
+cluster_id: "dev-cluster-id"
+workspace_url: "https://dev-workspace.databricks.com"
+num_workers: 2
+log_level: DEBUG

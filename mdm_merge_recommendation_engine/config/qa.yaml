@@ -1,0 +1,5 @@
+environment: qa
+cluster_id: "qa-cluster-id"
+workspace_url: "https://qa-workspace.databricks.com"
+num_workers: 4
+log_level: INFO

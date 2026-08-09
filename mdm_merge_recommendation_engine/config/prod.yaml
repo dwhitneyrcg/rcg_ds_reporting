@@ -1,0 +1,5 @@
+environment: prod
+cluster_id: "prod-cluster-id"
+workspace_url: "https://prod-workspace.databricks.com"
+num_workers: 8
+log_level: WARNING
