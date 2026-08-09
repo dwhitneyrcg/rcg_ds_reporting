@@ -1,0 +1,1035 @@
+---
+tags:
+  - atefeh_mahdavi
+  - ayon_ghosh
+  - bernard_kai_wittmaack
+  - brendan_turpin
+  - business_area/axiom_generative-ai_seats_(hotel_ops,_consumer_insights,_legal)
+  - business_area/contact_center_optimization_&_automation_(rci_cel)
+  - business_area/customer_lifetime_value_(corporate_planning)
+  - business_area/customer_targeting_(e-commerce)
+  - business_area/hybris_product_recommendations_(digital)
+  - business_area/loyalty_program_redesign
+  - business_area/supply_chain_optimization
+  - business_area/win-on-waste_(hotel_operations)
+  - camila_aichele
+  - carlos_gonzalez_andarcio
+  - erick_alfaro
+  - jesse_bausell
+  - kartik_ullal
+  - kevin_diaz
+  - lamis_amer
+  - mert_ersoz
+  - michelle_manfrini
+  - project/casino_spend_analysis
+  - project/cococay_integration_and_guardrails
+  - project/cross-brand_credit_card_strategy
+  - project/division-level_medallia_reports
+  - project/enhanced_for_you_recommendations
+  - project/inventory_optimization_for_silversea
+  - project/lead_prioritization_-_bk2cx_(rci_&_cel)
+  - project/lead_prioritization_-_cti_(rci_&_cel)
+  - project/specialty_dining_optimization
+  - project/spend-to-save_pilot_analysis
+  - project/targeted_offers_optimization
+  - project/workforce_planning_tool
+  - raw
+  - reza_bahadori
+  - weekly_update
+date: "2025-05-30"
+type: "raw_weekly_update"
+---
+
+# Weekly Update (Raw) - 2025-05-30
+
+## Update 1
+
+**Date:** 2025-05-30
+**Business Area:** Loyalty
+**Business Project:** Spend-to-Save Pilot Analysis
+**People:** [[kevin_diaz/overview_kevin_diaz|Kevin Diaz]]
+
+### Summarized Update
+
+Data Warehouse is having issues with etl pipelines that build intermediate aggregated tables on onboard revenue that are used by Austin Schladant to create the tables used for loyalty pilots. Austin is able to tie to total revenue dollars, but the spend cannot be assigned to a booking. This has caused a minimum two week delay on generating early peeking outputs from the first sailings of the "Spend to Save" pilot, but does not affect FCC issuance.
+
+### Raw Update
+
+Data Warehouse is having issues with etl pipelines that build intermediate aggregated tables on onboard revenue that are used by Austin Schladant to create the tables used for loyalty pilots. Austin is able to tie to total revenue dollars, but the spend cannot be assigned to a booking. This has caused a minimum two week delay on generating early peeking outputs from the first sailings of the "Spend to Save" pilot, but does not affect FCC issuance. Ricky has resolved most issues in Alpha tables but they still persist on Oracle where Austin's workflows exist. Even with the fix provided by Data Engineering, there are still issues with recently completed sailings, that will likely cause delays throughout the pilot process. Data Science team has prepared a temporary analysis using end of voyage reports and FCC files with Austin's help. This allows us to get APDs by spend category as a whole, but does not allow us to understand the distribution of spend.There has also been additional analyses completed on cross-brand sailings, but findings must be altered due to the data quality concerns.
+
+---
+
+## Update 2
+
+**Date:** 2025-05-30
+**Business Area:** CLTV
+**Business Project:** Cross-Brand Credit Card Strategy
+**People:** [[kevin_diaz/overview_kevin_diaz|Kevin Diaz]]
+
+### Summarized Update
+
+Continued use-case roadshow with follow ups for loyalty, RM and OBR teams. Defined CAR roadmap in collaboration with corporate strategy and data engineering including timelines for all-phases of work to be completed.
+
+### Raw Update
+
+Continued use-case roadshow with follow ups for loyalty, RM and OBR teams. Defined CAR roadmap in collaboration with corporate strategy and data engineering including timelines for all-phases of work to be completed.
+
+---
+
+## Update 3
+
+**Date:** 2025-05-30
+**Business Area:** Supply Chain
+**Business Project:** CocoCay Integration and Guardrails
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments:
+• Demand Forecast Accuracy: Advanced our Order Creation process for RCI/CCI, refining demand forecast allocation methods to better address product unavailability across sailings and improve procurement planning. • Data Integrity: Ongoing collaboration with Data Engineering to address persistent Silversea data issues (truncated/unrefreshed data); regular documentation and escalation are in progress. • Enhanced Guardrails: Implemented new controls for Medical, Uniforms, and Cococay by comparing month-over-month predictions, increasing forecast reliability.
+
+### Raw Update
+
+Key Accomplishments:
+• Demand Forecast Accuracy: Advanced our Order Creation process for RCI/CCI, refining demand forecast allocation methods to better address product unavailability across sailings and improve procurement planning.
+• Data Integrity: Ongoing collaboration with Data Engineering to address persistent Silversea data issues (truncated/unrefreshed data); regular documentation and escalation are in progress.
+• Enhanced Guardrails: Implemented new controls for Medical, Uniforms, and Cococay by comparing month-over-month predictions, increasing forecast reliability.
+• Pipeline Enhancements: Expanded analytical pipelines to include new columns as requested and developed a SharePoint integration for seamless data sharing; delivered an updated model results version.
+• Model Maintenance: Identified and troubleshooting errors within the Uniforms forecast pipeline (related to output files and missing backtest dates). Actively developing a new Cococay consumption model.
+• Data Delivery: Delivered Silversea cabin, guest, and voyage-related forecast tables, and initiated work on RCI/CCI inventory depletion analytics.
+
+---
+
+## Update 4
+
+**Date:** 2025-05-30
+**Business Area:** Supply Chain
+**Business Project:** Inventory Optimization for Silversea
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Planned/Pending Initiatives:
+• Leveraging AI to trigger email notifications based on model results. • Developing volatility reports to highlight forecast shifts for specific ship/product combinations.
+
+### Raw Update
+
+Planned/Pending Initiatives:
+• Leveraging AI to trigger email notifications based on model results.
+• Developing volatility reports to highlight forecast shifts for specific ship/product combinations.
+
+---
+
+## Update 5
+
+**Date:** 2025-05-30
+**Business Area:** Customer Lifetime Value
+**Business Project:** Casino Spend Analysis
+**People:** [[kevin_diaz/overview_kevin_diaz|Kevin Diaz]]
+
+### Summarized Update
+
+Key Accomplishments:
+• Resonate Dataset POC Restart: Re-engaged CLV, E-Commerce, Data Engineering, and external vendor Resonate to restart the previously shelved Resonate dataset POC. Confirmed licensing flexibility, unlocking broader dataset usage compared to alternatives. • Strategic Analysis: Conducted and delivered a new analysis uncovering a previously unidentified, significant relationship between Net Promoter Score (NPS) and CLV—a departure from past corporate strategy findings.
+
+### Raw Update
+
+Key Accomplishments:
+• Resonate Dataset POC Restart: Re-engaged CLV, E-Commerce, Data Engineering, and external vendor Resonate to restart the previously shelved Resonate dataset POC. Confirmed licensing flexibility, unlocking broader dataset usage compared to alternatives.
+• Strategic Analysis: Conducted and delivered a new analysis uncovering a previously unidentified, significant relationship between Net Promoter Score (NPS) and CLV—a departure from past corporate strategy findings.
+
+---
+
+## Update 6
+
+**Date:** 2025-05-30
+**Business Area:** Customer Lifetime Value
+**Business Project:** Casino Spend Analysis
+**People:** [[kevin_diaz/overview_kevin_diaz|Kevin Diaz]]
+
+### Summarized Update
+
+Planned/Pending Initiatives:
+• Deep dive analysis to quantify the impact of NPS fluctuations on CLV at the guest and brand levels. • Sensitivity analysis to identify incremental CLV gains per NPS increase.
+
+### Raw Update
+
+Planned/Pending Initiatives:
+• Deep dive analysis to quantify the impact of NPS fluctuations on CLV at the guest and brand levels.
+• Sensitivity analysis to identify incremental CLV gains per NPS increase.
+
+---
+
+## Update 7
+
+**Date:** 2025-05-30
+**Business Area:** E-Commerce
+**Business Project:** Targeted Offers Optimization
+**People:** [[carlos_gonzalez_andarcio/overview_carlos_gonzalez_andarcio|Carlos Gonzalez Andarcio]]
+
+### Summarized Update
+
+Key Accomplishments:
+• Completed baseline feature engineering from targeted offer data. • Initiated uplift model training for measuring targeted offer effectiveness.
+
+### Raw Update
+
+Key Accomplishments:
+• Completed baseline feature engineering from targeted offer data.
+• Initiated uplift model training for measuring targeted offer effectiveness.
+
+---
+
+## Update 8
+
+**Date:** 2025-05-30
+**Business Area:** E-Commerce
+**Business Project:** Targeted Offers Optimization
+**People:** [[carlos_gonzalez_andarcio/overview_carlos_gonzalez_andarcio|Carlos Gonzalez Andarcio]]
+
+### Summarized Update
+
+Planned/Pending Initiatives:
+• Meet with the E-Commerce data team to further improve targeted offer feature set.
+
+### Raw Update
+
+Planned/Pending Initiatives:
+• Meet with the E-Commerce data team to further improve targeted offer feature set.
+
+---
+
+## Update 9
+
+**Date:** 2025-05-30
+**Business Area:** Contact Center
+**Business Project:** Lead Prioritization - BK2CX (RCI & CEL)
+**People:** Unidentified
+
+### Summarized Update
+
+BKTOCX (Contact Center Data Pipeline)
+• ETL Monitoring: Developed ongoing ETL monitoring framework, resolved data mismatches, implemented zero-lead conditional scoring, and enhanced sequence ID tracking. • Data Alignment: Preparing for a full SBCXED data refresh and alignment to support subsequent ETL and SFTP testing with the Siebel team.
+
+### Raw Update
+
+BKTOCX (Contact Center Data Pipeline)
+• ETL Monitoring: Developed ongoing ETL monitoring framework, resolved data mismatches, implemented zero-lead conditional scoring, and enhanced sequence ID tracking.
+• Data Alignment: Preparing for a full SBCXED data refresh and alignment to support subsequent ETL and SFTP testing with the Siebel team.
+
+---
+
+## Update 10
+
+**Date:** 2025-05-30
+**Business Area:** Contact Center
+**People:** Unidentified
+
+### Summarized Update
+
+Next Steps:
+• Finalize SBCXED data refresh to enable ETL enhancements, live monitoring, and SFTP transfers. • Configure and debug the hourly ETL trigger.
+
+### Raw Update
+
+Next Steps:
+• Finalize SBCXED data refresh to enable ETL enhancements, live monitoring, and SFTP transfers.
+• Configure and debug the hourly ETL trigger.
+
+---
+
+## Update 11
+
+**Date:** 2025-05-30
+**Business Area:** Contact Center
+**Business Project:** Workforce Planning Tool
+**People:** Unidentified
+
+### Summarized Update
+
+Workforce Planning Simulation (North America)
+• Data Preparation: Secured access to critical Power BI reports, completed dataset mapping, and initiated data migration for automating the Excel-based workforce planning model in Databricks. • Process Improvement: Initiated call volume analysis, identified department labeling sources, and opened a Jira for ongoing data needs.
+
+### Raw Update
+
+Workforce Planning Simulation (North America)
+• Data Preparation: Secured access to critical Power BI reports, completed dataset mapping, and initiated data migration for automating the Excel-based workforce planning model in Databricks.
+• Process Improvement: Initiated call volume analysis, identified department labeling sources, and opened a Jira for ongoing data needs.
+
+---
+
+## Update 12
+
+**Date:** 2025-05-30
+**Business Area:** Contact Center
+**People:** Unidentified
+
+### Summarized Update
+
+Next Steps:
+• Develop proof of concept in Databricks to automate staffing calculations. • Investigate interim solutions (“Plan B”) for office shrinkage data accessibility.
+
+### Raw Update
+
+Next Steps:
+• Develop proof of concept in Databricks to automate staffing calculations.
+• Investigate interim solutions (“Plan B”) for office shrinkage data accessibility.
+
+---
+
+## Update 13
+
+**Date:** 2025-05-30
+**Business Area:** Contact Center
+**Business Project:** Lead Prioritization - BK2CX (RCI & CEL)
+**People:** Unidentified
+
+### Summarized Update
+
+• Participated in strategic discussions regarding AI-driven performance coaching content for the upcoming Learning Leadership Conference. Awaiting final determination on scope and role for our participation, as leader availability and approach are under review.
+
+### Raw Update
+
+• Participated in strategic discussions regarding AI-driven performance coaching content for the upcoming Learning Leadership Conference. Awaiting final determination on scope and role for our participation, as leader availability and approach are under review.
+
+---
+
+## Update 14
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[mert_ersoz/overview_mert_ersoz|Mert Ersoz]]
+
+### Summarized Update
+
+• Optimized compute for automated voyage phase, port, and leg identification algorithm. • Interviewed candidates for SY Stability CAR. • Performed labor budgeting for MIAP Phase II and III CARs.
+
+### Raw Update
+
+• Optimized compute for automated voyage phase, port, and leg identification algorithm.
+• Interviewed candidates for SY Stability CAR.
+• Performed labor budgeting for MIAP Phase II and III CARs.
+• Met with Valmet to negotiate the MIAP Phase IV quotation.
+• Deployed Allure to MIAP.
+
+---
+
+## Update 15
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[reza_bahadori/overview_reza_bahadori|Reza Bahadori]]
+
+### Summarized Update
+
+• Updated IC model/baselines for HVAC and HOTEL due to m_pow_fan_fcu_total power correction. • Working on the pipeline for electrical power consumption anomalies within the HVAC Diagnostics Platform. • Attended meeting with the new build team regarding ongoing R&D projects.
+
+### Raw Update
+
+• Updated IC model/baselines for HVAC and HOTEL due to m_pow_fan_fcu_total power correction.
+• Working on the pipeline for electrical power consumption anomalies within the HVAC Diagnostics Platform.
+• Attended meeting with the new build team regarding ongoing R&D projects.
+• Updated the QN ship model for the HVAC area.
+• Attended the energy-saving meeting concerning IN.
+
+---
+
+## Update 16
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+27th May
+• Worked on the Python script for the ENIRAM API, modifying concurrency logic from chunk size to a combination of day length and chunk size. • Conducted tests across various scenarios and communicated with the ENIRAM team via email, sharing error logs, execution times, and suggestions for improvements. 28th May
+• Implemented changes to the logic on the ENIRAM side within Databricks, based on team feedback.
+
+### Raw Update
+
+27th May
+• Worked on the Python script for the ENIRAM API, modifying concurrency logic from chunk size to a combination of day length and chunk size.
+• Conducted tests across various scenarios and communicated with the ENIRAM team via email, sharing error logs, execution times, and suggestions for improvements.
+28th May
+• Implemented changes to the logic on the ENIRAM side within Databricks, based on team feedback.
+• Attended a seminar on Couchbase DB.
+• Reviewed the workflow bundle deployment process through an instructional video.
+29th May
+• Currently working on transitioning the load factor dataset from QA to production.
+• Preparing to move historical data to production before executing the pipeline.
+
+---
+
+## Update 17
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+23rd May 2025
+• Continued working on MGO equivalent features. 27th May 2025
+• Fixed a bug in the power plant results notebook that caused FAT ISO SFOC calculation to fail. • Further optimized code that combines individual ship dataframes into one resultant dataframe.
+
+### Raw Update
+
+23rd May 2025
+• Continued working on MGO equivalent features.
+27th May 2025
+• Fixed a bug in the power plant results notebook that caused FAT ISO SFOC calculation to fail.
+• Further optimized code that combines individual ship dataframes into one resultant dataframe.
+28th May 2025
+• Completed MGO equivalent features.
+• Met with GMO app development team to discuss requirements for dynamic rules in the web app, allowing more flexible dropdown filters on plots.
+• Began testing MGO equivalent features.
+• Fixed a bug accessing the config YAML file from the power plant master notebook.
+29th May 2025
+• Continued testing the implementation of MGO equivalent features.
+• Fixed incorrect mapping of VY fuel temperature files.
+• Discovered missing fuel temperature data in flow meter 1 and 2 tags in Eniram flow; contacted Eniram regarding a possible fix.
+• Removed RD from the power plant analytics workflow until Eniram restores the missing fuel flow meter tag.
+• Added fuel cell power to total power feature.
+• Started working on the power plant model for the Fuel Forecast project using new MGO equivalent features.
+
+---
+
+## Update 18
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[brendan_turpin/overview_brendan_turpin|Brendan Turpin]]
+
+### Summarized Update
+
+Completed:
+• Deployed initial Propulsion Hull Degradation Model to production. • Created visualization for hull degradation across all ships by coating type and dry dock date; working to deploy it to the GMO app. • Performed ad-hoc analysis of propulsion power changes on IC with Mert for the Chief Engineer.
+
+### Raw Update
+
+Completed:
+• Deployed initial Propulsion Hull Degradation Model to production.
+• Created visualization for hull degradation across all ships by coating type and dry dock date; working to deploy it to the GMO app.
+• Performed ad-hoc analysis of propulsion power changes on IC with Mert for the Chief Engineer.
+• Brainstormed with DE team member on techniques for backloading large amounts of data from the Eniram API.
+• Assisted DE team member in troubleshooting Databricks asset bundle deployment.
+• Had a collaborative discussion with the MIAP team about our dynamic modeling process and its application to dynamically set baselines (instead of using the current manual/static method).
+• ChatGPT Usage Chargeback POC: Collaborated with Utkarsh and Eswar to create a methodology to track API usage and costs at team and project levels (work in progress).
+
+---
+
+## Update 19
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[brendan_turpin/overview_brendan_turpin|Brendan Turpin]]
+
+### Summarized Update
+
+In Progress (Next Week):
+• Add updated dry dock details to configs for the propulsion hull degradation model. • Add multithreading to the hull degradation visualization endpoint to reduce response times. • Complete the first phase of the ChatGPT Usage Chargeback POC.
+
+### Raw Update
+
+In Progress (Next Week):
+• Add updated dry dock details to configs for the propulsion hull degradation model.
+• Add multithreading to the hull degradation visualization endpoint to reduce response times.
+• Complete the first phase of the ChatGPT Usage Chargeback POC.
+• Deploy the hull degradation visualization to the GMO app.
+• Create an API endpoint integrating propulsion dynamic model predictions with adjustments from the hull degradation model.
+• Save tables for hull degradation results for GMO team usage.
+
+---
+
+## Update 20
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+• Following up with the ship, saved 800 kW in AHU power consumption for WN. • Addressed excessive power consumption issues in IN AHU, WN pump, HM Hotel, and SY Hotel systems. • Analyzed ship events and incident datasets, focusing specifically on fire incidents, power loss, and life-saving events.
+
+### Raw Update
+
+• Following up with the ship, saved 800 kW in AHU power consumption for WN.
+• Addressed excessive power consumption issues in IN AHU, WN pump, HM Hotel, and SY Hotel systems.
+• Analyzed ship events and incident datasets, focusing specifically on fire incidents, power loss, and life-saving events.
+
+---
+
+## Update 21
+
+**Date:** 2025-05-30
+**Business Area:** WoW
+**Business Project:** Specialty Dining Optimization
+**People:** [[ayon_ghosh/overview_ayon_ghosh|Ayon Ghosh]]
+
+### Summarized Update
+
+Team worked to:
+1) Add ICON specialty restaurants
+2) Add ICON MDR
+3) resolve OOM issue with existing cluster
+
+### Raw Update
+
+Team worked to:
+1) Add ICON specialty restaurants
+2) Add ICON MDR
+3) resolve OOM issue with existing cluster
+
+---
+
+## Update 22
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+Accomplishments:
+[Cresta]
+Finalized supervisor dashboard for RCI – track cresta impact and optimize features. Finalized supervisor dashboard for CEL – track cresta impact and optimize features
+Finalized new hire dashboard design – track cresta impact and optimize features
+Provided insights to Cresta on changes for auto summary, genKA and use case performance optimization. - Increase auto summary and genKA usage.
+
+### Raw Update
+
+Accomplishments:
+[Cresta]
+Finalized supervisor dashboard for RCI – track cresta impact and optimize features.
+Finalized supervisor dashboard for CEL – track cresta impact and optimize features
+Finalized new hire dashboard design – track cresta impact and optimize features
+Provided insights to Cresta on changes for auto summary, genKA and use case performance optimization. - Increase auto summary and genKA usage.
+Sent first data transfer
+
+---
+
+## Update 23
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+Accomplishments:
+[Conversational IVR]
+Royal deployment for FAQs, post cruise changes, casino routing outwards
+Knowledge transfer on how analytics reports work from Jesse to Jake
+[Workforce planning]
+Reviewed international team the call volume forecast for 2026 and FTE needs
+
+### Raw Update
+
+Accomplishments:
+[Conversational IVR]
+Royal deployment for FAQs, post cruise changes, casino routing outwards
+Knowledge transfer on how analytics reports work from Jesse to Jake
+[Workforce planning]
+Reviewed international team the call volume forecast for 2026 and FTE needs
+
+---
+
+## Update 24
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+What is currently being worked on:
+[Cresta]
+Avaya upgrades to resolve Cresta issues
+Data validations for cresta dashboards
+Data reviews for optimizations
+Data transfers
+Analyze the Cresta data dump now that resolution rate fixed
+
+### Raw Update
+
+What is currently being worked on:
+[Cresta]
+Avaya upgrades to resolve Cresta issues
+Data validations for cresta dashboards
+Data reviews for optimizations
+Data transfers
+Analyze the Cresta data dump now that resolution rate fixed
+
+---
+
+## Update 25
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+What is currently being worked on:
+[Conversational IVR]
+Celebrity UAT for River, loyalty grammar changes and FAQs. - expected to increase minutes automated by 10%
+CoPilot Migration contracts
+HCL vendor onboarding
+HCL T&M contracts
+Update analytics for the IVR for booking details task, new FAQs, new routings
+Continued UAT for RCI
+Copilot backlog development, potential FAQs, generative AI, new self-services and multi-modal use cases
+Creation of analytics once on coPilot studio
+
+### Raw Update
+
+What is currently being worked on:
+[Conversational IVR]
+Celebrity UAT for River, loyalty grammar changes and FAQs. - expected to increase minutes automated by 10%
+CoPilot Migration contracts
+HCL vendor onboarding
+HCL T&M contracts
+Update analytics for the IVR for booking details task, new FAQs, new routings
+Continued UAT for RCI
+Copilot backlog development, potential FAQs, generative AI, new self-services and multi-modal use cases
+Creation of analytics once on coPilot studio
+
+---
+
+## Update 26
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+Blockers
+Latest data dump from Cresta
+HCL vendor onboarding
+HCL T&M contract sign offs
+Avaya OneX integration
+CoPilot Contract Signature
+IT team post go live support for CoPilot
+Knowledge base setup for generative AI use cases on coPilot Studio
+
+### Raw Update
+
+Blockers
+Latest data dump from Cresta
+HCL vendor onboarding
+HCL T&M contract sign offs
+Avaya OneX integration
+CoPilot Contract Signature
+IT team post go live support for CoPilot
+Knowledge base setup for generative AI use cases on coPilot Studio
+
+---
+
+## Update 27
+
+**Date:** 2025-05-30
+**Business Area:** MyCruise Recommender
+**Business Project:** Enhanced For You Recommendations
+**People:** [[erick_alfaro/overview_erick_alfaro|Erick Alfaro]]
+
+### Summarized Update
+
+- Team worked extensively in testing API performance to confirm API response frequency and speed. - Eventually managed to work with Databricks to increase prod workspace level API request limit to the previously established 2.5k RPS. - Also tested the Route Optimized API endpoints which natively support use cases with high throughput and low latency.
+
+### Raw Update
+
+- Team worked extensively in testing API performance to confirm API response frequency and speed.
+- Eventually managed to work with Databricks to increase prod workspace level API request limit to the previously established 2.5k RPS.
+- Also tested the Route Optimized API endpoints which natively support use cases with high throughput and low latency. We will have to consider moving to a Route Optimized endpoint eventually. The only difficulty is that Route Optimized endpoints only work with Oauth which is a hassle to implement for front dev team.
+
+---
+
+## Update 28
+
+**Date:** 2025-05-30
+**Business Area:** Medallia
+**Business Project:** Division-Level Medallia Reports
+**People:** [[erick_alfaro/overview_erick_alfaro|Erick Alfaro]]
+
+### Summarized Update
+
+- Composed two sets of automated reports for Evan. First report is a sailing level report which has also been shared with Royal. Second report is a fleet level report which summarizes all sailings across at the ship level in a given month.
+
+### Raw Update
+
+- Composed two sets of automated reports for Evan. First report is a sailing level report which has also been shared with Royal. Second report is a fleet level report which summarizes all sailings across at the ship level in a given month.
+- Met with Steering Committee and prioritized next 30 days of deliveries. Focus is now on integrating Guest Service log into Medallia reporting.
+
+---
+
+## Update 29
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[erick_alfaro/overview_erick_alfaro|Erick Alfaro]]
+
+### Summarized Update
+
+# Lead Scoring
+BKTOCX
+- DE will be providing DS with new UC tables containing near real time data refreshes. The is a short term and a long term solution. Short term involves DE creating a job that will connect via JDBC directly to oracle and retrieve data for DS via an intermediary table.
+
+### Raw Update
+
+# Lead Scoring
+BKTOCX
+- DE will be providing DS with new UC tables containing near real time data refreshes. The is a short term and a long term solution. Short term involves DE creating a job that will connect via JDBC directly to oracle and retrieve data for DS via an intermediary table. The long term solution involves setting up Lakehoue Federation.
+- Will need to make a final update to BKTOCX pipeline to adjust for changes to Ingestion process as mentioned in previous bullet point.
+- Will need to set up Siebel with a mapping to new incoming lead categories. Without setting up siebel with the mapping for Mireilles files - the incoming data is rejected.
+
+---
+
+## Update 30
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[erick_alfaro/overview_erick_alfaro|Erick Alfaro]]
+
+### Summarized Update
+
+CTI
+- DE will be providing DS with new UC tables containing near real time data refreshes. The is a short term and a long term solution. Short term involves DE creating a job that will connect via JDBC directly to oracle and retrieve data for DS via an intermediary table.
+
+### Raw Update
+
+CTI
+- DE will be providing DS with new UC tables containing near real time data refreshes. The is a short term and a long term solution. Short term involves DE creating a job that will connect via JDBC directly to oracle and retrieve data for DS via an intermediary table. The long term solution involves setting up Lakehoue Federation.
+- Will need to make a final update to CTI pipeline to adjust for changes to Ingestion process as mentioned in previous bullet point.
+- Once new data is made available and integrated - all other parts of prod process will be ready to test end to end.
+
+---
+
+## Update 31
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[atefeh_mahdavi/overview_atefeh_mahdavi|Atefeh Mahdavi]]
+
+### Summarized Update
+
+RCI | Dynamic Binning Strategy for WTS Based on Booking Density on VPS Data
+The goal of this algorithm was to develop a dynamic binning approach that adapts to demand patterns using a scoring function. The score is defined such that a higher score reflects a strong concentration of demand over a shorter range of weeks. This enables us to identify dense demand regions and assign smaller bin sizes accordingly.
+
+### Raw Update
+
+RCI | Dynamic Binning Strategy for WTS Based on Booking Density on VPS Data
+The goal of this algorithm was to develop a dynamic binning approach that adapts to demand patterns using a scoring function. The score is defined such that a higher score reflects a strong concentration of demand over a shorter range of weeks. This enables us to identify dense demand regions and assign smaller bin sizes accordingly. I Explored bin ranges using bin size lists like [1, 21] to allow flexibility in bin adaptation across different meta products and cabin class combinations. The algorithm iteratively evaluates all allowed bin sizes (e.g., from 1 to 20 weeks) starting from the current week (WTS pointer). For each possible bin, a score = average normalized demand / bin size is calculated. The bin with the highest score that satisfies a minimum total demand threshold is selected. Once selected, the WTS pointer moves to the end of that bin and the process continues until the full WTS span (e.g., 70 weeks) is covered.
+I Compared average price (avg_vps_laf_plus_nccf_apd) instead of using weighted average price using standard bin sizes (e.g., fixed bin size = 5) versus the dynamic binning strategy.
+Tested StandardScaler normalization. Although R², RMSE, MAPE, and SMAPE metrics did not show significant improvement over fixed binning, the QQ plots revealed reduced nonlinearity. MLFlow Logging of Training Metrics: For each meta and cat class, the model is saved along with its metrics and artifacts
+
+---
+
+## Update 32
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[bernard_kai_wittmaack/overview_bernard_kai_wittmaack|Bernard Kai Wittmaack]]
+
+### Summarized Update
+
+RCI SPI Factor Model:
+Groups:
+•Group targets revised with updated SPI scoring methodology
+•Group booked position 5-10 percentage points greater off-peak relative to peak. •Sweet spot for groups between 15-20% booked position off-peak and 10-15% during peak. •Group/FIT APDs ~5-10 percentage points higher during peak relative to off-peak.
+
+### Raw Update
+
+RCI SPI Factor Model:
+Groups:
+•Group targets revised with updated SPI scoring methodology
+•Group booked position 5-10 percentage points greater off-peak relative to peak.
+•Sweet spot for groups between 15-20% booked position off-peak and 10-15% during peak.
+•Group/FIT APDs ~5-10 percentage points higher during peak relative to off-peak.
+•Target between 60-70 off-peak and 70-80 for peak season.
+•Association with SPI less significant compared to group booked position.
+
+---
+
+## Update 33
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[bernard_kai_wittmaack/overview_bernard_kai_wittmaack|Bernard Kai Wittmaack]]
+
+### Summarized Update
+
+RCI FIT Track:
+•Updated track model to weigh recent years more heavily (exponential decay)
+•Demonstrated that model generated tracks adhere very closely to historical high-performing sailings across meta product, WTS, booking WOY, category class, ship class, sailing nights, and RDSS product code.
+
+### Raw Update
+
+RCI FIT Track:
+•Updated track model to weigh recent years more heavily (exponential decay)
+•Demonstrated that model generated tracks adhere very closely to historical high-performing sailings across meta product, WTS, booking WOY, category class, ship class, sailing nights, and RDSS product code.
+
+---
+
+## Update 34
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[bernard_kai_wittmaack/overview_bernard_kai_wittmaack|Bernard Kai Wittmaack]]
+
+### Summarized Update
+
+CEL SPI Scoring Model:
+• Updated SPI scoring methodology to more heavily weight recent years (exponential decay)
+• Recent shift in business practices such as greater emphasis on T4 demand better reflected in new SPI model. Specifically, spring break and summer are now more offset relative to off-peak season due to extra T4 volume. • After validation of scores by CEL rev strat, focus will begin on integrating work into MTRB and starting on SPI factor modeling
+
+### Raw Update
+
+CEL SPI Scoring Model:
+• Updated SPI scoring methodology to more heavily weight recent years (exponential decay)
+• Recent shift in business practices such as greater emphasis on T4 demand better reflected in new SPI model. Specifically, spring break and summer are now more offset relative to off-peak season due to extra T4 volume.
+• After validation of scores by CEL rev strat, focus will begin on integrating work into MTRB and starting on SPI factor modeling
+
+---
+
+## Update 35
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+CEL | FIT Re-berthing
+The pipeline was fully built and tested successfully in the development environment, with final product team feedback pending (May 23, 2025). Successful testing was confirmed in QA, followed by minor adjustments in the development environment (May 28, 2025). The reberthing algorithm was completed and deployed into production (May 29, 2025).
+
+### Raw Update
+
+CEL | FIT Re-berthing
+The pipeline was fully built and tested successfully in the development environment, with final product team feedback pending (May 23, 2025).
+Successful testing was confirmed in QA, followed by minor adjustments in the development environment (May 28, 2025).
+The reberthing algorithm was completed and deployed into production (May 29, 2025).
+Occupancy and category corrections were incorporated into the system.
+There were no delays during the process, and no potential future issues were identified.
+
+---
+
+## Update 36
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+RCI | PRE Outputs to Unity Catalog
+Identified 38 million rows needing to be moved into Unity Catalog; developed an ETL pipeline for this process. Completed coding of the pipeline and prepared for testing in development (May 27, 2025). Development testing was successful; preparations began for QA testing (May 28, 2025).
+
+### Raw Update
+
+RCI | PRE Outputs to Unity Catalog
+Identified 38 million rows needing to be moved into Unity Catalog; developed an ETL pipeline for this process.
+Completed coding of the pipeline and prepared for testing in development (May 27, 2025).
+Development testing was successful; preparations began for QA testing (May 28, 2025).
+QA testing confirmed successful deployment; system went live for the June 2, 2025 PRE run (May 29, 2025).
+A one-time process to transfer the entire PRE history into Unity Catalog will be executed on June 3, 2025, prior to price uploads.
+Going forward, PRE price uploads will also append to the history table in Unity Catalog (prd_revenue_mgmt_bu.pre_rci.pre_archive_hist).
+There were no delays during the project, and no potential future issues were identified.
+
+---
+
+## Update 37
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[jesse_bausell/overview_jesse_bausell|Jesse Bausell]]
+
+### Summarized Update
+
+SSC RM A/B testing: voyage selection
+We are expanding A/B testing to include voyage areas outside of Alaska. Therefore, this ticket will be pro-longed.
+
+### Raw Update
+
+SSC RM A/B testing: voyage selection
+We are expanding A/B testing to include voyage areas outside of Alaska. Therefore, this ticket will be pro-longed.
+
+---
+
+## Update 38
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[jesse_bausell/overview_jesse_bausell|Jesse Bausell]]
+
+### Summarized Update
+
+SSC RM Bookings Analysis:
+Presented to Claire Mason and Teresa Ignacio and received constructive feedback on recent analyses to identify potential revenue leakage and "gaming of the system" by our Travel Partners.
+
+### Raw Update
+
+SSC RM Bookings Analysis:
+Presented to Claire Mason and Teresa Ignacio and received constructive feedback on recent analyses to identify potential revenue leakage and "gaming of the system" by our Travel Partners.
+
+---
+
+## Update 39
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[michelle_manfrini/overview_michelle_manfrini|Michelle Manfrini]]
+
+### Summarized Update
+
+RCI | CAT-GAP 3.0
+- Met with business 5/28/25. Explored results with Eddie. Received positive feedback on initial cat-gap model.
+
+### Raw Update
+
+RCI | CAT-GAP 3.0
+- Met with business 5/28/25. Explored results with Eddie. Received positive feedback on initial cat-gap model. Will expand training data to include “all-above” bookings as was done for CEL model. Team requested plots of gaps to understand frequencies in historical bookings.
+- Discussed implementation of 2.0 model. Eddie confirmed they are not waiting on any deliverable from my end. His team is in process of validating results and will integrate to TAP as soon as Alexa has finished.
+- Reviewed revenue formula logic. Meeting with business again on Tuesday to further discuss how to apply model output for their use. Will introduce idea of incorporating track as is being done for CEL. Initial integration of model and optimization for CATGAP complete, will continue to update in following spring.
+
+---
+
+## Update 40
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[michelle_manfrini/overview_michelle_manfrini|Michelle Manfrini]]
+
+### Summarized Update
+
+CEL | CAT-GAP 3.0
+- Worked out formulas and proof of concept for integrating demand (track) into revenue optimization. Beginning to work into current model and optimization code, will continue in following sprint.
+
+### Raw Update
+
+CEL | CAT-GAP 3.0
+- Worked out formulas and proof of concept for integrating demand (track) into revenue optimization. Beginning to work into current model and optimization code, will continue in following sprint.
+
+---
+
+## Update 41
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[michelle_manfrini/overview_michelle_manfrini|Michelle Manfrini]]
+
+### Summarized Update
+
+GTY-LEAD 2.0 | Maintenance and Monitoring
+- CEL full implementation set for next week. - Built out master sailing list and confirmed expectations from business. Adjusted functions to identify health metrics such as duplicates, nulls, sailing and category falloff, optimal gaps outside desired range.
+
+### Raw Update
+
+GTY-LEAD 2.0 | Maintenance and Monitoring
+- CEL full implementation set for next week.
+- Built out master sailing list and confirmed expectations from business. Adjusted functions to identify health metrics such as duplicates, nulls, sailing and category falloff, optimal gaps outside desired range.
+- Table health metrics, row validation logs, and falloff dataframes are being saved to SharePoint in CATEGORY_GAPPING folder.
+- Logs over 3 months old are deleted.
+- In progress --> table specific validations.
+
+---
+
+## Update 42
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** [[michelle_manfrini/overview_michelle_manfrini|Michelle Manfrini]]
+
+### Summarized Update
+
+CEL | IMPLEMENTATION OF BINNING STRATEGY ON MODEL USING VPS DATA
+Developed a binning strategy for VPS price data based on demand patterns observed during exploratory data analysis. The “weeks to sail” variable was segmented into three categories: close-in, mid-range, and far-out, each with approximately equal data points. Tested various bin sizes per meta-product; smaller bins improved fit but increased prediction errors.
+
+### Raw Update
+
+CEL | IMPLEMENTATION OF BINNING STRATEGY ON MODEL USING VPS DATA
+Developed a binning strategy for VPS price data based on demand patterns observed during exploratory data analysis.
+The “weeks to sail” variable was segmented into three categories: close-in, mid-range, and far-out, each with approximately equal data points.
+Tested various bin sizes per meta-product; smaller bins improved fit but increased prediction errors.
+Identified an optimal binning scheme:
+Larger bins (15–20 weeks) for sparser, far-out periods.
+Smaller, balanced bins (5–10 weeks) for peak booking windows and closer-in periods.
+The approach effectively balanced capturing booking trends with stable prediction accuracy across different meta-products.
+No anticipated future issues with the developed binning strategy.
+
+---
+
+## Update 43
+
+**Date:** 2025-05-30
+**Business Area:** Hybris Product Recommendations (Digital)
+**Business Project:** Enhanced For You Recommendations
+**People:** [[kartik_ullal/overview_kartik_ullal|Kartik Ullal]]
+
+### Summarized Update
+
+Performed analysis for OBR Evergreen test across various segments. Looked at entire dataset and also just evergreen discounts and filtered other promos. Reported the results to the business team.
+
+### Raw Update
+
+Performed analysis for OBR Evergreen test across various segments. Looked at entire dataset and also just evergreen discounts and filtered other promos. Reported the results to the business team.
+Doug met with Anastasia today and she passed along that she's been very happy with the help Karik's given her team regarding testing. Solid work and feedback getting tests up and running and monitoring progress. Great job!
+
+---
+
+## Update 44
+
+**Date:** 2025-05-30
+**Business Area:** Contact Center Optimization & Automation (RCI/CEL)
+**Business Project:** Lead Prioritization - CTI (RCI & CEL)
+**People:** [[lamis_amer/overview_lamis_amer|Lamis Amer]]
+
+### Summarized Update
+
+Developed multiple optimization models, including Linear Programming and Dynamic Programming. Validated model performance using randomly selected sailings to destinations such as Alaska, Short Caribbean, 7N Caribbean, and Europe. Created a Stochastic Programming Model that incorporates uncertainty in price predictions, generating a set of optimal track options within a confidence region.
+
+### Raw Update
+
+Developed multiple optimization models, including Linear Programming and Dynamic Programming.
+Validated model performance using randomly selected sailings to destinations such as Alaska, Short Caribbean, 7N Caribbean, and Europe.
+Created a Stochastic Programming Model that incorporates uncertainty in price predictions, generating a set of optimal track options within a confidence region.
+Planning to close the track optimization task for May.
+Further modeling enhancements will be pursued once a more refined elasticity model is finalized.
+Feature Engineering: Bkg Woy - Bkg_wave_flg
+I created a bkg_wave_flg column based on the bkg week of year where we are getting bookings that are higher than 90%ile for each meta, class, and sail_month. The column appears to be highly significant. Incorporating this feature in average increases the model metrics such as r2 from 0.55 to 0.79
+
+---
+
+## Update 45
+
+**Date:** 2025-05-30
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+RCI | Elasticity Upgrades
+Created elasticities using newer elasticity approach and presented to business. Z scoring price by Ship Class, Cat Class, WTS Bin
+Transforming Y Variable (New Total BK over 5 Weeks) using Power Transformer (This is done on the entire dataset, not a groupby)
+Fit using just a Ridge Regression (alpha=1) using transformed target regressor (with the PowerTransformer) as opposed to doing the Poisson Regression
+as opposed to doing the Poisson Regression
+R2 is higher, fits seem better. (Residuals are better distributed, Seems to be capturing more in the scatter plots as well)
+still some oddness in it I have to dig into (Likely caused by the Z scoring of prices and not being a lot of data for that bin, etc)
+Maybe it is what is needed to correctly deal with how much prices change by WTS as well as average bookings
+
+### Raw Update
+
+RCI | Elasticity Upgrades
+Created elasticities using newer elasticity approach and presented to business.
+Z scoring price by Ship Class, Cat Class, WTS Bin
+Transforming Y Variable (New Total BK over 5 Weeks) using Power Transformer (This is done on the entire dataset, not a groupby)
+Fit using just a Ridge Regression (alpha=1) using transformed target regressor (with the PowerTransformer) as opposed to doing the Poisson Regression
+as opposed to doing the Poisson Regression
+R2 is higher, fits seem better. (Residuals are better distributed, Seems to be capturing more in the scatter plots as well)
+still some oddness in it I have to dig into (Likely caused by the Z scoring of prices and not being a lot of data for that bin, etc)
+Maybe it is what is needed to correctly deal with how much prices change by WTS as well as average bookings
+
+---
+
+_Source: 20250530 - Raw Weekly Reporting (Raw).docx_

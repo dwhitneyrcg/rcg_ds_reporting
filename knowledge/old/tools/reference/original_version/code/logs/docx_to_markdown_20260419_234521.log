@@ -1,0 +1,100 @@
+2026-04-19 23:45:21,672 [INFO] Found 49 .docx files in c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw
+2026-04-19 23:45:21,672 [INFO] Converting: 20250516 - Raw Weekly Rafeh and Matter Reporting (Raw).docx
+2026-04-19 23:45:21,941 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250516 - Raw Weekly Rafeh and Matter Reporting (Raw).md
+2026-04-19 23:45:21,943 [INFO] Converting: 20250523 - Raw Weekly Update (Raw).docx
+2026-04-19 23:45:22,158 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250523 - Raw Weekly Update (Raw).md
+2026-04-19 23:45:22,158 [INFO] Converting: 20250530 - Raw Weekly Reporting (Raw).docx
+2026-04-19 23:45:22,398 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250530 - Raw Weekly Reporting (Raw).md
+2026-04-19 23:45:22,398 [INFO] Converting: 20250606 - Raw Weekly Reporting (Raw).docx
+2026-04-19 23:45:22,569 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250606 - Raw Weekly Reporting (Raw).md
+2026-04-19 23:45:22,569 [INFO] Converting: 20250606 - Raw Weekly Reporting.docx
+2026-04-19 23:45:22,724 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250606 - Raw Weekly Reporting.md
+2026-04-19 23:45:22,724 [INFO] Converting: 20250613 - Raw Weekly Matt and Rafeh Report.docx
+2026-04-19 23:45:22,832 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250613 - Raw Weekly Matt and Rafeh Report.md
+2026-04-19 23:45:22,835 [INFO] Converting: 20250613 - Raw Weekly Matt and Rafeh Reporting (Raw).docx
+2026-04-19 23:45:23,011 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250613 - Raw Weekly Matt and Rafeh Reporting (Raw).md
+2026-04-19 23:45:23,011 [INFO] Converting: 20250613 - Raw Weekly Matt and Rafeh Reporting.docx
+2026-04-19 23:45:23,196 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250613 - Raw Weekly Matt and Rafeh Reporting.md
+2026-04-19 23:45:23,196 [INFO] Converting: 20250620 - Raw Weekly Matt and Rafeh Reporting (Raw).docx
+2026-04-19 23:45:23,314 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250620 - Raw Weekly Matt and Rafeh Reporting (Raw).md
+2026-04-19 23:45:23,314 [INFO] Converting: 20250620 - Raw Weekly Matt and Rafeh Reporting.docx
+2026-04-19 23:45:23,442 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250620 - Raw Weekly Matt and Rafeh Reporting.md
+2026-04-19 23:45:23,443 [INFO] Converting: 20250627 - Raw Weekly Matt and Rafeh Reporting (Raw).docx
+2026-04-19 23:45:23,563 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250627 - Raw Weekly Matt and Rafeh Reporting (Raw).md
+2026-04-19 23:45:23,563 [INFO] Converting: 20250627 - Raw Weekly Matt and Rafeh Reporting.docx
+2026-04-19 23:45:23,710 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250627 - Raw Weekly Matt and Rafeh Reporting.md
+2026-04-19 23:45:23,711 [INFO] Converting: 20250711 - Erick Weekly.docx
+2026-04-19 23:45:23,733 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250711 - Erick Weekly.md
+2026-04-19 23:45:23,733 [INFO] Converting: 20250711 - Raw Weekly Matt and Rafeh Report (Raw).docx
+2026-04-19 23:45:24,465 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250711 - Raw Weekly Matt and Rafeh Report (Raw).md
+2026-04-19 23:45:24,465 [INFO] Converting: 20250711 - Raw Weekly Matt and Rafeh Report .docx
+2026-04-19 23:45:25,177 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250711 - Raw Weekly Matt and Rafeh Report .md
+2026-04-19 23:45:25,177 [INFO] Converting: 20250718 - Raw Weekly Matt and Rafeh Report (Raw).docx
+2026-04-19 23:45:25,481 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250718 - Raw Weekly Matt and Rafeh Report (Raw).md
+2026-04-19 23:45:25,481 [INFO] Converting: 20250718 - Raw Weekly Matt and Rafeh Report.docx
+2026-04-19 23:45:25,777 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250718 - Raw Weekly Matt and Rafeh Report.md
+2026-04-19 23:45:25,777 [INFO] Converting: 20250725 - Raw Weekly Matt and Rafeh Report (Raw).docx
+2026-04-19 23:45:25,933 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250725 - Raw Weekly Matt and Rafeh Report (Raw).md
+2026-04-19 23:45:25,933 [INFO] Converting: 20250725 - Raw Weekly Matt and Rafeh Report.docx
+2026-04-19 23:45:26,086 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250725 - Raw Weekly Matt and Rafeh Report.md
+2026-04-19 23:45:26,086 [INFO] Converting: 20250801 - Weekly Matt and Rafeh Update (Raw).docx
+2026-04-19 23:45:26,257 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250801 - Weekly Matt and Rafeh Update (Raw).md
+2026-04-19 23:45:26,257 [INFO] Converting: 20250808 - Weekly Rafeh & Matt Update (Raw).docx
+2026-04-19 23:45:26,432 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250808 - Weekly Rafeh & Matt Update (Raw).md
+2026-04-19 23:45:26,432 [INFO] Converting: 20250815 - Weekly Rafeh and Matt Updates (Raw).docx
+2026-04-19 23:45:26,583 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250815 - Weekly Rafeh and Matt Updates (Raw).md
+2026-04-19 23:45:26,583 [INFO] Converting: 20250822 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:26,736 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250822 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:26,736 [INFO] Converting: 20250829 - Weekly Matt and Rafeh Update (Raw).docx
+2026-04-19 23:45:26,896 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250829 - Weekly Matt and Rafeh Update (Raw).md
+2026-04-19 23:45:26,896 [INFO] Converting: 20250905 - Weekly Rafeh & Matt Update (Raw).docx
+2026-04-19 23:45:27,112 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250905 - Weekly Rafeh & Matt Update (Raw).md
+2026-04-19 23:45:27,112 [INFO] Converting: 20250912 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:27,233 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250912 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:27,233 [INFO] Converting: 20250919 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:27,382 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250919 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:27,382 [INFO] Converting: 20250926 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:27,695 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20250926 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:27,695 [INFO] Converting: 20251003 - Weekly Matt and Rafeh Update (Raw).docx
+2026-04-19 23:45:27,818 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251003 - Weekly Matt and Rafeh Update (Raw).md
+2026-04-19 23:45:27,818 [INFO] Converting: 20251010 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:28,082 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251010 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:28,082 [INFO] Converting: 20251017 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:28,337 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251017 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:28,337 [INFO] Converting: 20251024 - Weekly Matt & Rafeh Report (Raw).docx
+2026-04-19 23:45:28,481 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251024 - Weekly Matt & Rafeh Report (Raw).md
+2026-04-19 23:45:28,481 [INFO] Converting: 20251031 - Weekly Rafeh and Matt Report (Raw).docx
+2026-04-19 23:45:28,654 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251031 - Weekly Rafeh and Matt Report (Raw).md
+2026-04-19 23:45:28,654 [INFO] Converting: 20251107 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:28,756 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251107 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:28,756 [INFO] Converting: 20251114 - Weekly Rafeh & Matt Update (Raw).docx
+2026-04-19 23:45:28,940 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251114 - Weekly Rafeh & Matt Update (Raw).md
+2026-04-19 23:45:28,940 [INFO] Converting: 20251121 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:29,103 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251121 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:29,103 [INFO] Converting: 20251205 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:29,283 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251205 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:29,283 [INFO] Converting: 20251212 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:29,420 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20251212 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:29,420 [INFO] Converting: 20260109 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:29,545 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260109 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:29,545 [INFO] Converting: 20260116 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:29,691 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260116 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:29,691 [INFO] Converting: 20260123 - Weekly Matt & Rafeh (Raw).docx
+2026-04-19 23:45:29,870 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260123 - Weekly Matt & Rafeh (Raw).md
+2026-04-19 23:45:29,870 [INFO] Converting: 20260130 - Weekly Matt and Rafeh Report (Raw).docx
+2026-04-19 23:45:30,023 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260130 - Weekly Matt and Rafeh Report (Raw).md
+2026-04-19 23:45:30,023 [INFO] Converting: 20260206 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:30,202 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260206 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:30,202 [INFO] Converting: 20260213 - Weekly Matt and Rafeh Updates (Raw).docx
+2026-04-19 23:45:30,410 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260213 - Weekly Matt and Rafeh Updates (Raw).md
+2026-04-19 23:45:30,411 [INFO] Converting: 20260220 - Weekly Matt and Rafeh Update (Raw).docx
+2026-04-19 23:45:30,571 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260220 - Weekly Matt and Rafeh Update (Raw).md
+2026-04-19 23:45:30,571 [INFO] Converting: 20260227 - Weekly Matt and Rafeh Updates (Raw).docx
+2026-04-19 23:45:30,965 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260227 - Weekly Matt and Rafeh Updates (Raw).md
+2026-04-19 23:45:30,965 [INFO] Converting: 20260306 - Weekly Rafeh & Matt Updates (Raw).docx
+2026-04-19 23:45:31,155 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260306 - Weekly Rafeh & Matt Updates (Raw).md
+2026-04-19 23:45:31,155 [INFO] Converting: 20260306 - Weekly Rafeh & Matt Updates.docx
+2026-04-19 23:45:31,190 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260306 - Weekly Rafeh & Matt Updates.md
+2026-04-19 23:45:31,190 [INFO] Converting: 20260313 - Weekly Matt & Rafeh Update (Raw).docx
+2026-04-19 23:45:31,455 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\reporting\weekly_updates_raw_md\20260313 - Weekly Matt & Rafeh Update (Raw).md
+2026-04-19 23:45:31,457 [INFO] Converted 49 files

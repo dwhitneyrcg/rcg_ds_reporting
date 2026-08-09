@@ -1,0 +1,210 @@
+---
+tags:
+  - business_area/axiom_generative-ai_seats_(hotel_ops,_consumer_insights,_legal)
+  - business_area/contact_center_optimization_&_automation_(rci_cel)
+  - business_area/customer_lifetime_value_(corporate_planning)
+  - business_area/customer_targeting_(e-commerce)
+  - business_area/hybris_product_recommendations_(digital)
+  - business_area/marine_insights_analytics_platform_(marine_operations)
+  - business_area/pcp_pricing_automation_(rci_cel)
+  - business_area/propel_targeted_offers_(cel)
+  - business_area/revenue_management_automation_(ssc)
+  - business_area/supply_chain_optimization
+  - business_area/win-on-waste_(hotel_operations)
+  - project/a_b_testing_framework
+  - project/beverage_package_optimization
+  - project/booking_propensity_models
+  - project/cococay_integration_and_guardrails
+  - project/conversational_ivr
+  - project/cross-brand_credit_card_strategy
+  - project/division-level_medallia_reports
+  - project/enhanced_for_you_recommendations
+  - project/forecasting_pipeline_expansion
+  - project/hvac_diagnostics_&_anomaly_detection
+  - project/lead_prioritization_-_cti_(rci_&_cel)
+  - project/offer_template_expansion
+  - summarized
+  - weekly_update
+date: "2026-01-23"
+type: "summarized_weekly_update"
+---
+
+# Weekly Update (Summarized) - 2026-01-23
+
+## Proud
+
+### Supply Chain Optimization
+
+**Date:** 2026-01-23
+**Business Area:** Supply Chain Optimization
+**Business Project:** CocoCay Integration and Guardrails
+
+**Achievements:**
+DS Team secured enthusiastic go-ahead for the Beyond pilot (start next month; target fleetwide by September). Seasonality corrections were delivered for HF&B: analysis surfaced 342 SKUs with off-season inflation; STLY guardrails now bound forecasts (passenger-adjusted, 0.5–2.0) to prevent over-ordering. Min/Max par logic was accepted; Streamlit App v1 (secure SharePoint workflows) shipped; and work advanced on consolidated spend by joining multiple sources after gaps were found in the single-file approach. Ongoing: App v2 release, timestamping orders and par tables, progressing uniform/medical/CocoCay agentic features, and resolving SSC inflation row-count display issues.
+
+**Raw Update:**
+DS Team secured enthusiastic go-ahead for the Beyond pilot (start next month; target fleetwide by September). Seasonality corrections were delivered for HF&B: analysis surfaced 342 SKUs with off-season inflation; STLY guardrails now bound forecasts (passenger-adjusted, 0.5–2.0) to prevent over-ordering. Min/Max par logic was accepted; Streamlit App v1 (secure SharePoint workflows) shipped; and work advanced on consolidated spend by joining multiple sources after gaps were found in the single-file approach. Ongoing: App v2 release, timestamping orders and par tables, progressing uniform/medical/CocoCay agentic features, and resolving SSC inflation row-count display issues.
+
+---
+
+### AXIOM
+
+**Date:** 2026-01-23
+**Business Area:** AXIOM
+**Business Project:** Division-Level Medallia Reports
+
+**Achievements:**
+Generative-AI SEATs (Hotel Ops, Consumer Insights, Legal): DS Team delivered LLM-labeled ShoreX Safety outputs for review, deployed an NPS Drivers model endpoint (response ~10s), and advanced a self-labeling framework for Qualtrics topic discovery; an LLM utilities framework was standardized to parallelize API calls across projects. Ongoing: expand filters and app integration for NPS Drivers, validate Medallia Genie paths, and generalize metadata extraction to support division-level reporting at scale.
+
+**Raw Update:**
+Generative-AI SEATs (Hotel Ops, Consumer Insights, Legal): DS Team delivered LLM-labeled ShoreX Safety outputs for review, deployed an NPS Drivers model endpoint (response ~10s), and advanced a self-labeling framework for Qualtrics topic discovery; an LLM utilities framework was standardized to parallelize API calls across projects. Ongoing: expand filters and app integration for NPS Drivers, validate Medallia Genie paths, and generalize metadata extraction to support division-level reporting at scale.
+
+---
+
+### Marine Insights Analytics Platform (Marine Operations)
+
+**Date:** 2026-01-23
+**Business Area:** Marine Insights Analytics Platform (Marine Operations)
+**Business Project:** HVAC Diagnostics & Anomaly Detection
+
+**Achievements:**
+DS Team productionized the Alarms & Events GUI in MIAP and integrated an AI agent that executes agent-driven SQL and alarm analytics inside the app; nearly 500K alarms/events per ship now sync to the platform, and a joint program with Lloyd’s Register kicked off to cut alarm fatigue. Fuel-and-power modeling advanced with LNG Optimizer fixes, new MGO-equivalent SFOC models for seven ships, HVAC/chiller diagnostics analyses, and a live demo of the Fuel Forecast API to Operations. Ongoing: integrate LNG Optimizer into the Digital Twin API, finish data migrations (VPS/Sea Events/DNV/Lloyd), stabilize Norway-port maneuvering anomalies, expand the live ship tracker (24-hour replay), and continue AHU anomaly triage.
+
+**Raw Update:**
+DS Team productionized the Alarms & Events GUI in MIAP and integrated an AI agent that executes agent-driven SQL and alarm analytics inside the app; nearly 500K alarms/events per ship now sync to the platform, and a joint program with Lloyd’s Register kicked off to cut alarm fatigue. Fuel-and-power modeling advanced with LNG Optimizer fixes, new MGO-equivalent SFOC models for seven ships, HVAC/chiller diagnostics analyses, and a live demo of the Fuel Forecast API to Operations. Ongoing: integrate LNG Optimizer into the Digital Twin API, finish data migrations (VPS/Sea Events/DNV/Lloyd), stabilize Norway-port maneuvering anomalies, expand the live ship tracker (24-hour replay), and continue AHU anomaly triage.
+
+---
+
+### PROPEL Targeted Offers (CEL)
+
+**Date:** 2026-01-23
+**Business Area:** PROPEL Targeted Offers (CEL)
+**Business Project:** Offer Template Expansion
+
+**Achievements:**
+Team implemented image standards (100–400 KB), generalized the new offer template across categories, and refactored asset handling so images are processed once per offer bank (cutting downloads from ~1–2K per run to ~64). This reduces runtime, improves reliability, and standardizes guest-visible creative. Ongoing: implement custom layout logic for non-shorex categories and backfill missing images to sustain fleetwide coverage.
+
+**Raw Update:**
+Team implemented image standards (100–400 KB), generalized the new offer template across categories, and refactored asset handling so images are processed once per offer bank (cutting downloads from ~1–2K per run to ~64). This reduces runtime, improves reliability, and standardizes guest-visible creative. Ongoing: implement custom layout logic for non-shorex categories and backfill missing images to sustain fleetwide coverage.
+
+---
+
+### Contact Center Optimization & Automation (RCI/CEL)
+
+**Date:** 2026-01-23
+**Business Area:** Contact Center Optimization & Automation (RCI/CEL)
+**Business Project:** Lead Prioritization - CTI (RCI & CEL)
+
+**Achievements:**
+MLOPs Teams restored halted ADF production pipelines to re-enable end-to-end price uploads and model refreshes, and DS Team progressed PRE 4.0 optimization logic (decision selection between PRE 4.0 vs. Optimal, reporting notebooks, MLflow instrumentation) toward QA. SPI factor-model methods (unsupervised curve similarity, nearest-neighbors across comparable ships/classes) advanced to inform track-level optimization. RCI: finalized PRE 4.0 fallback/guardrail logic for missing optimal values, strengthened track-optimization readiness, and deepened berthing KPI analysis to reduce involuntary upgrades and wasted berths. CEL: kicked off pricing optimization in PRE with a shift from occupancy-level to cat_class decisioning, integrated CEL DART methodology, and addressed schema gaps that previously blocked elasticity execution; GtyLead 3.0 progressed with parallel training infrastructure, dynamic bounds per sailing, and granular EBM models aligned to CEL inventory structures. Ongoing: complete PRE 4.0 QA and production push, execute CEL end-to-end optimization runs in PRE, harden the standardized A/B framework, and finalize unified datasets for engineering handoff.
+
+**Raw Update:**
+MLOPs Teams restored halted ADF production pipelines to re-enable end-to-end price uploads and model refreshes, and DS Team progressed PRE 4.0 optimization logic (decision selection between PRE 4.0 vs. Optimal, reporting notebooks, MLflow instrumentation) toward QA. SPI factor-model methods (unsupervised curve similarity, nearest-neighbors across comparable ships/classes) advanced to inform track-level optimization.
+RCI: finalized PRE 4.0 fallback/guardrail logic for missing optimal values, strengthened track-optimization readiness, and deepened berthing KPI analysis to reduce involuntary upgrades and wasted berths.
+CEL: kicked off pricing optimization in PRE with a shift from occupancy-level to cat_class decisioning, integrated CEL DART methodology, and addressed schema gaps that previously blocked elasticity execution; GtyLead 3.0 progressed with parallel training infrastructure, dynamic bounds per sailing, and granular EBM models aligned to CEL inventory structures.
+Ongoing: complete PRE 4.0 QA and production push, execute CEL end-to-end optimization runs in PRE, harden the standardized A/B framework, and finalize unified datasets for engineering handoff.
+
+---
+
+### Revenue Management Automation (SSC)
+
+**Date:** 2026-01-23
+**Business Area:** Revenue Management Automation (SSC)
+**Business Project:** A/B Testing Framework
+
+**Achievements:**
+DS Team delivered multi-currency PRE (five currencies) with exchange-rate time-series tracked in feature stores and confirmed initial reservation-system validations. Universal A/B Framework responsibilities were handed off with a shared repository and governance so RM experiments scale consistently. Ongoing: compute and monitor PRE success/use metrics, and scope the upper-level suites work for the next test cycle.
+
+**Raw Update:**
+DS Team delivered multi-currency PRE (five currencies) with exchange-rate time-series tracked in feature stores and confirmed initial reservation-system validations. Universal A/B Framework responsibilities were handed off with a shared repository and governance so RM experiments scale consistently. Ongoing: compute and monitor PRE success/use metrics, and scope the upper-level suites work for the next test cycle.
+
+---
+
+## Excited
+
+### Contact Center Optimization & Automation (RCI/CEL)
+
+**Date:** 2026-01-23
+**Business Area:** Contact Center Optimization & Automation (RCI/CEL)
+**Business Project:** Conversational IVR
+
+**Achievements:**
+DS Team trained, tested, and back-tested call-volume forecasts for 12 LOBs and kept operations stable by shipping a temporary OFTOCX pipeline during SFTP write failures. Cresta rollout readiness improved by CCAS Team with finalized KPIs, Phase-mapped call-skill configurations, secured VDNs, and enabled Guest Profile API connectivity for personalization analytics. Ongoing: execute phased Cresta rollout and governance, complete SpeechIQ→Cresta data transition and ETL alignment, mature digitization KPI reporting, assess SMS deflection opportunities, and continue Conversational IVR integrations.
+
+**Raw Update:**
+DS Team trained, tested, and back-tested call-volume forecasts for 12 LOBs and kept operations stable by shipping a temporary OFTOCX pipeline during SFTP write failures. Cresta rollout readiness improved by CCAS Team with finalized KPIs, Phase-mapped call-skill configurations, secured VDNs, and enabled Guest Profile API connectivity for personalization analytics. Ongoing: execute phased Cresta rollout and governance, complete SpeechIQ→Cresta data transition and ETL alignment, mature digitization KPI reporting, assess SMS deflection opportunities, and continue Conversational IVR integrations.
+
+---
+
+### Customer Lifetime Value (Corporate Planning)
+
+**Date:** 2026-01-23
+**Business Area:** Customer Lifetime Value (Corporate Planning)
+**Business Project:** Cross-Brand Credit Card Strategy
+
+**Achievements:**
+DS Team aligned to adopt Revenue Planning baseline demand as ground truth (historical ~±1% error, but I have skepticism if this is really true and am following up with team), pivoting AI scope to latent demand estimation (spill/overflow, call abandonment, social and brand-equity signals). A focused market study confirmed NY drive-in guests underperform initially but retain strongly, pointing to a durable value segment. Ongoing: complete 2025 CLV table refresh and lineage documentation, and submit data acquisition requests to Marketing/Consumer Insights/E-commerce for the new features.
+
+**Raw Update:**
+DS Team aligned to adopt Revenue Planning baseline demand as ground truth (historical ~±1% error, but I have skepticism if this is really true and am following up with team), pivoting AI scope to latent demand estimation (spill/overflow, call abandonment, social and brand-equity signals). A focused market study confirmed NY drive-in guests underperform initially but retain strongly, pointing to a durable value segment. Ongoing: complete 2025 CLV table refresh and lineage documentation, and submit data acquisition requests to Marketing/Consumer Insights/E-commerce for the new features.
+
+---
+
+### Customer Targeting (E-Commerce)
+
+**Date:** 2026-01-23
+**Business Area:** Customer Targeting (E-Commerce)
+**Business Project:** Booking Propensity Models
+
+**Achievements:**
+DS Team expanded the Streamlit dashboard with Consumer Booking Status views, fixed model-insights visibility issues, and published updated reports (Booking Propensity Change Drivers v2 and a Sailing Propensity training report). Ongoing: resolve Copy-to-Oracle pipeline failures, update booking-status logic to use status + sailing date (not a 7-day lookback), and evaluate ingestion of clickstream and call-center data to boost model features and scoring cadence. Digital Guest-Services: For Guest Services Chat, stakeholders are validating escalation-type patterns on the latest sample dataset to finalize automation rules and elevate new issue types on the main dashboard. Ongoing: codify escalation rules in production dashboards and prepare for controlled activation once patterns are approved.
+
+**Raw Update:**
+DS Team expanded the Streamlit dashboard with Consumer Booking Status views, fixed model-insights visibility issues, and published updated reports (Booking Propensity Change Drivers v2 and a Sailing Propensity training report). Ongoing: resolve Copy-to-Oracle pipeline failures, update booking-status logic to use status + sailing date (not a 7-day lookback), and evaluate ingestion of clickstream and call-center data to boost model features and scoring cadence.
+Digital Guest-Services: For Guest Services Chat, stakeholders are validating escalation-type patterns on the latest sample dataset to finalize automation rules and elevate new issue types on the main dashboard. Ongoing: codify escalation rules in production dashboards and prepare for controlled activation once patterns are approved.
+
+---
+
+### Hybris Product Recommendations (Digital)
+
+**Date:** 2026-01-23
+**Business Area:** Hybris Product Recommendations (Digital)
+**Business Project:** Enhanced For You Recommendations
+
+**Achievements:**
+Team validated A/B test procedures (multiple-testing controls), resolved Postgres authentication, and successfully pulled staging offerings via GraphQL; a lightweight pixel tracker was proposed to measure “viewed recommendations” exposure while PDP experiments await engineering bandwidth. Ongoing: finalize test design, migrate code to the updated pipeline, and complete QA to enable internal review.
+
+**Raw Update:**
+Team validated A/B test procedures (multiple-testing controls), resolved Postgres authentication, and successfully pulled staging offerings via GraphQL; a lightweight pixel tracker was proposed to measure “viewed recommendations” exposure while PDP experiments await engineering bandwidth. Ongoing: finalize test design, migrate code to the updated pipeline, and complete QA to enable internal review.
+
+---
+
+### PCP Pricing Automation (RCI/CEL)
+
+**Date:** 2026-01-23
+**Business Area:** PCP Pricing Automation (RCI/CEL)
+**Business Project:** Beverage Package Optimization
+
+**Achievements:**
+Promotion writeback testing resumed with Digital to enable approvals and SOX-compliant controls in Hybris preview. This eliminates the blocker from last, but we still are behind schedule. DS Team retrained Waterpark PRE (Perfect Day) using improved target encoding and elasticity refresh; corrected duplicate and capacity-join defects that caused false exceedances; and repaired base-price extraction for cabanas so optimized vs. system prices are accurate. Royal Beach Club automation progressed: live data scraping is fixed (driver/package updates) and an aggregated CRF view was built for automation. Ongoing: run optimization with corrected inputs and tighter constraints, validate Hybris preview writeback end-to-end, publish RBC CRF view post-QA, and continue A/B automation checks.
+
+**Raw Update:**
+Promotion writeback testing resumed with Digital to enable approvals and SOX-compliant controls in Hybris preview. This eliminates the blocker from last, but we still are behind schedule. DS Team retrained Waterpark PRE (Perfect Day) using improved target encoding and elasticity refresh; corrected duplicate and capacity-join defects that caused false exceedances; and repaired base-price extraction for cabanas so optimized vs. system prices are accurate. Royal Beach Club automation progressed: live data scraping is fixed (driver/package updates) and an aggregated CRF view was built for automation. Ongoing: run optimization with corrected inputs and tighter constraints, validate Hybris preview writeback end-to-end, publish RBC CRF view post-QA, and continue A/B automation checks.
+
+---
+
+### Win-on-Waste (Hotel Operations)
+
+**Date:** 2026-01-23
+**Business Area:** Win-on-Waste (Hotel Operations)
+**Business Project:** Forecasting Pipeline Expansion
+
+**Achievements:**
+Team extended data foundations by incorporating Charter voyages into fleet datasets and completed unit tests for 150 ice-cream variants; five new Interport/Interport-Master pipelines reached feature-engineering, strengthening downstream forecasting and menu planning. Ongoing: complete integration testing, align with downstream reporting/forecast consumers, and validate seasonal guardrails before expanding venue coverage.
+
+**Raw Update:**
+Team extended data foundations by incorporating Charter voyages into fleet datasets and completed unit tests for 150 ice-cream variants; five new Interport/Interport-Master pipelines reached feature-engineering, strengthening downstream forecasting and menu planning. Ongoing: complete integration testing, align with downstream reporting/forecast consumers, and validate seasonal guardrails before expanding venue coverage.
+
+---
+
+_Source: 20260123 - Weekly Matt and Rafeh Update.docx_

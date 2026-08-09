@@ -1,0 +1,8 @@
+2026-04-19 23:45:11,975 [INFO] Found 3 .docx files in c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\prompts\prompts
+2026-04-19 23:45:11,977 [INFO] Converting: 20251031 - Instruction Files (Business Area Summarization).docx
+2026-04-19 23:45:12,004 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\prompts\prompts\20251031 - Instruction Files (Business Area Summarization).md
+2026-04-19 23:45:12,009 [INFO] Converting: 20251031 - Instructions Files (Generate Business Area Mappings).docx
+2026-04-19 23:45:12,157 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\prompts\prompts\20251031 - Instructions Files (Generate Business Area Mappings).md
+2026-04-19 23:45:12,157 [INFO] Converting: 20260323 - Build Business Areas and Projects (Updated).docx
+2026-04-19 23:45:12,279 [INFO] Output: c:\Users\133486\OneDrive - Royal Caribbean Group\LocalDatabricks\rcg_ds_reporting\knowledge\prompts\prompts\20260323 - Build Business Areas and Projects (Updated).md
+2026-04-19 23:45:12,279 [INFO] Converted 3 files

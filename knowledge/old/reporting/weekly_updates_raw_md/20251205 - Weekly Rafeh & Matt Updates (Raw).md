@@ -1,0 +1,889 @@
+---
+tags:
+  - aagam_shah
+  - alejandro_aristizabal-sanchez
+  - arya_cheeti
+  - atefeh_mahdavi
+  - brendan_turpin
+  - business_area/axiom_generative-ai_seats_(hotel_ops,_consumer_insights,_legal)
+  - business_area/contact_center_optimization_&_automation_(rci_cel)
+  - business_area/customer_lifetime_value_(corporate_planning)
+  - business_area/hybris_product_recommendations_(digital)
+  - business_area/marine_insights_analytics_platform_(marine_operations)
+  - business_area/pcp_pricing_automation_(rci_cel)
+  - business_area/propel_targeted_offers_(cel)
+  - business_area/revenue_management_automation_(cel)
+  - business_area/revenue_management_automation_(rci)
+  - business_area/revenue_management_automation_(ssc)
+  - business_area/supply_chain_optimization
+  - caleb_sharkey
+  - camila_aichele
+  - carlos_gonzalez_andarcio
+  - cristian_villamarin-villamil
+  - erick_alfaro
+  - glen-erik_cortez
+  - ignacio_villasmil
+  - jesse_bausell
+  - lamis_amer
+  - mahshad_shariatnasab
+  - michelle_manfrini
+  - project/advanced_modeling_development
+  - project/automated_pricing_expansion
+  - project/calendar_recommender_development
+  - project/casino_spend_analysis
+  - project/cltv-drivers_model_development
+  - project/cococay_integration_and_guardrails
+  - project/cross-brand_credit_card_strategy
+  - project/division-level_medallia_reports
+  - project/elasticity_model_enhancements_(pre4.0)
+  - project/enhanced_hf&b_demand_modelling
+  - project/expedition_forecasting_with_silversea_automation
+  - project/gty-lead_fare_optimization_model
+  - project/gty-lead_fare_optimization_model_3.0
+  - project/historical_data_integration
+  - project/lead_prioritization_-_bk2cx_(rci_&_cel)
+  - project/marine_safety_analytics
+  - project/miap_operating_efficiency_enhancements
+  - project/min_max_par-level_tools
+  - project/offer_personalization_enhancement
+  - project/pre_4.0_elasticity_enhancements
+  - project/pricing_recommendation_engine_(pre)_automation
+  - project/workforce_planning_tool
+  - raw
+  - reza_bahadori
+  - weekly_update
+date: "2025-12-05"
+type: "raw_weekly_update"
+---
+
+# Weekly Update (Raw) - 2025-12-05
+
+## Update 1
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** Marine Safety Analytics
+**People:** Unidentified
+
+### Summarized Update
+
+Made improvements to the Newbuild Stability Agent and migrated it to use an AzureAI Foundry–based foundational model (GPT 5 mini) instead of Databricks model serving. Met with supply chain and marine ops teams to discuss the marine supply chain optimization project. Prepared a presentation and architecture diagrams for the AI & Analytics all hands.
+
+### Raw Update
+
+Made improvements to the Newbuild Stability Agent and migrated it to use an AzureAI Foundry–based foundational model (GPT 5 mini) instead of Databricks model serving.
+Met with supply chain and marine ops teams to discuss the marine supply chain optimization project.
+Prepared a presentation and architecture diagrams for the AI & Analytics all hands.
+
+---
+
+## Update 2
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** Historical Data Integration
+**People:** [[arya_cheeti/overview_arya_cheeti|Arya Cheeti]]
+
+### Summarized Update
+
+Fixed a bug with the GMO SharePoint. Transcribed FAT engine reports from PDF images to CSV for XC. Working on power plant FACT model optimization.
+
+### Raw Update
+
+Fixed a bug with the GMO SharePoint.
+Transcribed FAT engine reports from PDF images to CSV for XC.
+Working on power plant FACT model optimization.
+Fixed a bug related to seawater temperature that caused data gaps in power plant models.
+
+---
+
+## Update 3
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** Historical Data Integration
+**People:** [[mahshad_shariatnasab/overview_mahshad_shariatnasab|Mahshad Shariatnasab]]
+
+### Summarized Update
+
+Tuned the service power model and found several issues affecting different ships:
+NaN values in various sub-models that affected accuracy, since service power is calculated from propulsion and the power system. Incorrect dimensional settings that produced wrong data for some ships. One ship had incorrect document numbers for diesel generators in the power system.
+
+### Raw Update
+
+Tuned the service power model and found several issues affecting different ships:
+NaN values in various sub-models that affected accuracy, since service power is calculated from propulsion and the power system.
+Incorrect dimensional settings that produced wrong data for some ships.
+One ship had incorrect document numbers for diesel generators in the power system.
+After addressing these problems, the service power model’s accuracy improved significantly.
+
+---
+
+## Update 4
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** Historical Data Integration
+**People:** Unidentified
+
+### Summarized Update
+
+Added more exception messages and refactored the MIAP REST API code in QA, which helped collect all messages generated by the API. Discussed Dashboard KPIs with team members for the logging mechanism. Developed and tested ZeroBus connectivity and encountered a certificate issue.
+
+### Raw Update
+
+Added more exception messages and refactored the MIAP REST API code in QA, which helped collect all messages generated by the API.
+Discussed Dashboard KPIs with team members for the logging mechanism.
+Developed and tested ZeroBus connectivity and encountered a certificate issue.
+Started code adjustments for Modbus data.
+Next week:
+Find a solution for the ZeroBus certificate issue.
+Implement and load Modbus data into the DE workspace.
+Move the STREAM shipboard notebook from DLT to a framework.
+
+---
+
+## Update 5
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** MIAP Operating Efficiency Enhancements
+**People:** [[reza_bahadori/overview_reza_bahadori|Reza Bahadori]]
+
+### Summarized Update
+
+Worked on feature issues on some ships in the service power area to fix and enhance digital twin performance.
+
+### Raw Update
+
+Worked on feature issues on some ships in the service power area to fix and enhance digital twin performance.
+
+---
+
+## Update 6
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** Advanced Modeling Development
+**People:** Unidentified
+
+### Summarized Update
+
+Completed FACTs Dynamic Modeling. Completed first iteration of the new Pilot Fuel Dynamic Model; now improving accuracy by fitting a custom model to the data. Calculated heat power and pilot fuel heat power ratio.
+
+### Raw Update
+
+Completed FACTs Dynamic Modeling.
+Completed first iteration of the new Pilot Fuel Dynamic Model; now improving accuracy by fitting a custom model to the data.
+Calculated heat power and pilot fuel heat power ratio.
+Fixed a bug in the Databricks release pipeline.
+Fixed a bug with the FACTs leg code feature.
+Testing new custom filters in the GMO app.
+
+---
+
+## Update 7
+
+**Date:** 2025-12-05
+**Business Area:** MIAP
+**Business Project:** MIAP Operating Efficiency Enhancements
+**People:** [[brendan_turpin/overview_brendan_turpin|Brendan Turpin]]
+
+### Summarized Update
+
+Completed the new architecture design for the propulsion section of the Fuel Forecast API, incorporating all edge cases. Created Confluence documentation for the new propulsion functions in the Fuel Forecast API. Completed ~50% of the new propulsion implementation in Python.
+
+### Raw Update
+
+Completed the new architecture design for the propulsion section of the Fuel Forecast API, incorporating all edge cases.
+Created Confluence documentation for the new propulsion functions in the Fuel Forecast API.
+Completed ~50% of the new propulsion implementation in Python.
+
+---
+
+## Update 8
+
+**Date:** 2025-12-05
+**Business Area:** Project Axiom
+**Business Project:** Division-Level Medallia Reports
+**People:** [[erick_alfaro/overview_erick_alfaro|Erick Alfaro]]
+
+### Summarized Update
+
+Presented and introducing project Axiom in the Wavemakers bi-weekly session organized by Alec Brinn. Will be Presenting the "emerging topics" report to Laura Hodges on Dec 16th. The report is sent out once a month to CEL leadership.
+
+### Raw Update
+
+Presented and introducing project Axiom in the Wavemakers bi-weekly session organized by Alec Brinn. Will be Presenting the "emerging topics" report to Laura Hodges on Dec 16th. The report is sent out once a month to CEL leadership. Naftali is aware of our "Divsion level" email reports and is particularly interested in the port-of-call specific reports.
+Meta Data Extraction
+• Finalizing the Medallia topics for the Division level meta data extraction process.
+Reporting
+• Division level email templates have been created and are on track to be delivered by end of December.
+• Fleet detractor report has been finalized and will go live next week.
+• Released a new update to the Axiom Medallia App to make the 3d mapping page more intuitive the user. The 3d page will now also support 2d plots and improved GenAI UI/UX capabilities.
+Modeling
+• The new booking level drivers model is slated for delivery by end of year.
+• POC Drivers Webapp integration will be the final delivery of the year.
+
+---
+
+## Update 9
+
+**Date:** 2025-12-05
+**Business Area:** MyCruise Recommender
+**Business Project:** Calendar Recommender Development
+**People:** [[erick_alfaro/overview_erick_alfaro|Erick Alfaro]], [[cristian_villamarin-villamil/overview_cristian_villamarin-villamil|Cristian Villamarin-Villamil]]
+
+### Summarized Update
+
+Project Updates
+• Finish the development stage for the ForYou-Calendar use case. • Set and optimized ForYou-Calendar ETL in dev and production environments. • Successfully deployed and updated the ForYou-Calendar for the prod and dev endpoints.
+
+### Raw Update
+
+Project Updates
+• Finish the development stage for the ForYou-Calendar use case.
+• Set and optimized ForYou-Calendar ETL in dev and production environments.
+• Successfully deployed and updated the ForYou-Calendar for the prod and dev endpoints.
+• Introduced the Digital Engineering for a 30 min recorded session the API in preparation for App integration.
+• Engineered the segregation between dev and prod environment for the whole MCR system
+• Conducted a code review of AB testing results ( currently at 90% of progress)
+
+---
+
+## Update 10
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** Enhanced HF&B Demand Modelling
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments
+• HF&B Demand Model (RCI/CCI)
+o Completed productionization of the new HF&B demand model for RCI/CCI. o Refactored feature-engineering code to significantly reduce compute time versus the broader test feature set, enabling more efficient refresh cycles. o Final November backtest results expected by 12/5 EOD; those will inform go forward production calibration.
+
+### Raw Update
+
+Key Accomplishments
+• HF&B Demand Model (RCI/CCI)
+o Completed productionization of the new HF&B demand model for RCI/CCI.
+o Refactored feature-engineering code to significantly reduce compute time versus the broader test feature set, enabling more efficient refresh cycles.
+o Final November backtest results expected by 12/5 EOD; those will inform go forward production calibration.
+
+---
+
+## Update 11
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** Expedition Forecasting with Silversea Automation
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments
+• Data Quality & Foundations
+o POS consumption data: Data Engineering resolved missing-date issues, reducing risk of bias in demand and finance modeling. o Master load schedule: Updated to include Legend of the Seas, closing a prior gap in coverage. o Port itinerary / warehouse transfer orders: Investigating records with multiple ports per day (147 cases identified) to confirm whether DE’s source table is correct or requires a more precise source for warehouse transfer logic.
+
+### Raw Update
+
+Key Accomplishments
+• Data Quality & Foundations
+o POS consumption data: Data Engineering resolved missing-date issues, reducing risk of bias in demand and finance modeling.
+o Master load schedule: Updated to include Legend of the Seas, closing a prior gap in coverage.
+o Port itinerary / warehouse transfer orders: Investigating records with multiple ports per day (147 cases identified) to confirm whether DE’s source table is correct or requires a more precise source for warehouse transfer logic.
+o Finance automation: Finance automation table now pointing to PRD gold consumption table from DE; validating with Yan, as dashboard values did not change post switch.
+
+---
+
+## Update 12
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** Min/Max PAR-Level Tools
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments
+• Inventory & Finance Analytics
+o Built warehouse “unhealthy inventory” and realized savings tables; ready to be added to the weekly pipeline. o Delivered initial SSC min/max par logic; received feedback to:
+Incorporate warehouse transfer orders into calculations. Correct the “actual quantity needed” logic.
+
+### Raw Update
+
+Key Accomplishments
+• Inventory & Finance Analytics
+o Built warehouse “unhealthy inventory” and realized savings tables; ready to be added to the weekly pipeline.
+o Delivered initial SSC min/max par logic; received feedback to:
+Incorporate warehouse transfer orders into calculations.
+Correct the “actual quantity needed” logic.
+Apply differentiated safety stock multiples (x2 for some categories, x1 for others).
+o Progress on Cococay and medical finance tools; SSC finance tool is next in queue.
+o Finalized logic for Cococay SharePoint files, aligning local markets to Miami, Galveston, and New York, and began refining consolidated HF&B + Cococay SharePoint outputs.
+
+---
+
+## Update 13
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** CocoCay Integration and Guardrails
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments
+• Uniforms / SSC
+o Uniforms v6 built; encountered SharePoint permission errors when writing outputs—root cause investigation underway. o SSC uniforms backtesting: Completing final backtested reporting table; addressing a couple of bugs uncovered during integration. o Crew data refresh cadence clarified with SSC: crew data is updated on the 15th and last day of the month.
+
+### Raw Update
+
+Key Accomplishments
+• Uniforms / SSC
+o Uniforms v6 built; encountered SharePoint permission errors when writing outputs—root cause investigation underway.
+o SSC uniforms backtesting: Completing final backtested reporting table; addressing a couple of bugs uncovered during integration.
+o Crew data refresh cadence clarified with SSC: crew data is updated on the 15th and last day of the month. We are adjusting from a weekly to twice monthly model update cadence for SSC uniforms to align with the actual data refresh.
+
+---
+
+## Update 14
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** CocoCay Integration and Guardrails
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments
+• Royal Beach Club & Perfect Day
+o After meeting with Mario, refined Royal Beach Club demand logic:
+Will incorporate actual consumption and start EDA with shore excursion data. Evaluating future ticket sales as a proxy for passenger counts. o Completed groundwork for Cococay; Mexico Perfect Day EDA is queued to begin.
+
+### Raw Update
+
+Key Accomplishments
+• Royal Beach Club & Perfect Day
+o After meeting with Mario, refined Royal Beach Club demand logic:
+Will incorporate actual consumption and start EDA with shore excursion data.
+Evaluating future ticket sales as a proxy for passenger counts.
+o Completed groundwork for Cococay; Mexico Perfect Day EDA is queued to begin.
+
+---
+
+## Update 15
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** CocoCay Integration and Guardrails
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Key Accomplishments
+• Talent / Process
+o Launched a new live interview assessment for contractor candidates. o First interview conducted 12/4, second on 12/5, helping raise the bar on external analytics talent.
+
+### Raw Update
+
+Key Accomplishments
+• Talent / Process
+o Launched a new live interview assessment for contractor candidates.
+o First interview conducted 12/4, second on 12/5, helping raise the bar on external analytics talent.
+
+---
+
+## Update 16
+
+**Date:** 2025-12-05
+**Business Area:** IBP Supply Chain
+**Business Project:** Min/Max PAR-Level Tools
+**People:** [[camila_aichele/overview_camila_aichele|Camila Aichele]]
+
+### Summarized Update
+
+Near-Term Priorities
+• Review November backtest results for the HF&B model and lock in the production schedule. • Incorporate SSC feedback into min/max par (transfer orders, corrected quantity logic, category-specific safety stock). • Resolve SharePoint permission issue for Uniforms v6 and stabilize SSC uniforms reporting.
+
+### Raw Update
+
+Near-Term Priorities
+• Review November backtest results for the HF&B model and lock in the production schedule.
+• Incorporate SSC feedback into min/max par (transfer orders, corrected quantity logic, category-specific safety stock).
+• Resolve SharePoint permission issue for Uniforms v6 and stabilize SSC uniforms reporting.
+• Validate finance automation outputs with Yan and DE; integrate warehouse inventory/savings tables into weekly runs.
+• Advance Cococay, medical, and SSC finance tools; start Mexico Perfect Day EDA.
+Risks / Dependencies
+• Data correctness and availability (port itineraries, consumption gold table content, crew updates) will directly affect speed and accuracy of finance, demand, and inventory outputs.
+• SharePoint permissions are currently a blocker for distributing Uniforms v6 results.
+
+---
+
+## Update 17
+
+**Date:** 2025-12-05
+**Business Area:** Customer Lifetime Value
+**Business Project:** CLTV-Drivers Model Development
+**People:** [[caleb_sharkey/overview_caleb_sharkey|Caleb Sharkey]]
+
+### Summarized Update
+
+Key Accomplishments
+• Customer Economics Database – Enterprise Rollout
+o Pipeline execution completed; Customer Economics Database is now finalized and available for enterprise use. o Access granted to Product Development, Celebrity Marketing (CEL), and Travel Platform; additional stakeholders have expressed interest in adopting the asset.
+
+### Raw Update
+
+Key Accomplishments
+• Customer Economics Database – Enterprise Rollout
+o Pipeline execution completed; Customer Economics Database is now finalized and available for enterprise use.
+o Access granted to Product Development, Celebrity Marketing (CEL), and Travel Platform; additional stakeholders have expressed interest in adopting the asset.
+
+---
+
+## Update 18
+
+**Date:** 2025-12-05
+**Business Area:** Customer Lifetime Value
+**People:** [[caleb_sharkey/overview_caleb_sharkey|Caleb Sharkey]]
+
+### Summarized Update
+
+Key Accomplishments
+• SOP and Governance
+o Completed SOP documentation that standardizes how teams should use the CLV / Customer Economics data to produce preliminary insights, helping ensure consistent and responsible usage.
+
+### Raw Update
+
+Key Accomplishments
+• SOP and Governance
+o Completed SOP documentation that standardizes how teams should use the CLV / Customer Economics data to produce preliminary insights, helping ensure consistent and responsible usage.
+
+---
+
+## Update 19
+
+**Date:** 2025-12-05
+**Business Area:** Customer Lifetime Value
+**Business Project:** Casino Spend Analysis
+**People:** [[caleb_sharkey/overview_caleb_sharkey|Caleb Sharkey]]
+
+### Summarized Update
+
+Key Accomplishments
+• Celebrations Use Case
+o Presented to Cory and Joey on celebratory trips (e.g., honeymoons). o Insight: Honeymooners show strong total value but under index vs potential, likely due to their more expensive product choices limiting other spend—highlighting a targeted opportunity for packaging, upsell, and experience design.
+
+### Raw Update
+
+Key Accomplishments
+• Celebrations Use Case
+o Presented to Cory and Joey on celebratory trips (e.g., honeymoons).
+o Insight: Honeymooners show strong total value but under index vs potential, likely due to their more expensive product choices limiting other spend—highlighting a targeted opportunity for packaging, upsell, and experience design.
+
+---
+
+## Update 20
+
+**Date:** 2025-12-05
+**Business Area:** Customer Lifetime Value
+**Business Project:** Cross-Brand Credit Card Strategy
+**People:** [[caleb_sharkey/overview_caleb_sharkey|Caleb Sharkey]]
+
+### Summarized Update
+
+In Progress / Next
+• Building West Coast insights leveraging McKinsey survey data:
+o Vacation availability by state. o Vacation-type preferences. o Income distributions by state.
+
+### Raw Update
+
+In Progress / Next
+• Building West Coast insights leveraging McKinsey survey data:
+o Vacation availability by state.
+o Vacation-type preferences.
+o Income distributions by state.
+o These insights will help inform network/product strategy and marketing prioritization.
+• Further socialize the Customer Economics Database and identify the next set of embedded use cases (e.g., pricing, product strategy, channel targeting, and personalization).
+
+---
+
+## Update 21
+
+**Date:** 2025-12-05
+**Business Area:** Contact Center
+**Business Project:** Lead Prioritization - BK2CX (RCI & CEL)
+**People:** Unidentified
+
+### Summarized Update
+
+Key Accomplishments
+• Code & Logic Hardening
+o Implemented a 10 digit phone-number filter to ensure valid contact data. o Updated and validated agency suppression logic. o Updated BK2CX pipeline to apply condition (bnprst <> "WL").
+
+### Raw Update
+
+Key Accomplishments
+• Code & Logic Hardening
+o Implemented a 10 digit phone-number filter to ensure valid contact data.
+o Updated and validated agency suppression logic.
+o Updated BK2CX pipeline to apply condition (bnprst <> "WL").
+• Infrastructure & Backups
+o Configured lead scoring backup paths for CCI and RCI predictions across environments:
+/Volumes/{env}_datascience/lead_prioritization_oftocx/oftocx/cci_predictions
+/Volumes/{env}_datascience/lead_prioritization_oftocx/oftocx/rci_predictions
+o Reviewed utility functions to ensure correct backup saving paths.
+o Conducted end-to-end testing in Dev, QA, and Prod.
+• Testing with Siebel Team
+o Shared min/max sequence_id and counts per sub lead for reconciliation.
+o Expanded from simple volume checks to business rule validation:
+Phone-number formats.
+Travel-agent/agency flags.
+CVP rules.
+BAU rules.
+o Goal: verify correct lead handling, not just record counts.
+
+---
+
+## Update 22
+
+**Date:** 2025-12-05
+**Business Area:** Contact Center
+**Business Project:** Lead Prioritization - BK2CX (RCI & CEL)
+**People:** Unidentified
+
+### Summarized Update
+
+• Business Requirement
+o Agencies with phone numbers starting ‘0080%’ must now have a 2 day delay before being passed through Lead Prioritization, while other agencies proceed as normal. o Constraint: our existing process only pulls new leads with sequence_id > max_sequence_id from sbofrd, which doesn’t naturally capture older sequence_ids created by the delay. • Technical Solution
+o Designed and built two separate ETL processes:
+Process A – Normal agencies: existing flow with current max_sequence_id tracking.
+
+### Raw Update
+
+• Business Requirement
+o Agencies with phone numbers starting ‘0080%’ must now have a 2 day delay before being passed through Lead Prioritization, while other agencies proceed as normal.
+o Constraint: our existing process only pulls new leads with sequence_id > max_sequence_id from sbofrd, which doesn’t naturally capture older sequence_ids created by the delay.
+• Technical Solution
+o Designed and built two separate ETL processes:
+Process A – Normal agencies: existing flow with current max_sequence_id tracking.
+Process B – Delayed agencies: dedicated flow with its own max_sequence_id tracking to pull delayed leads correctly.
+o Pipelines are configured and ready to run whichever logic is approved.
+• Status
+o Logic and approach have been reviewed; awaiting final approval from Augusto.
+o Once approved, we can immediately proceed to full testing and deployment.
+
+---
+
+## Update 23
+
+**Date:** 2025-12-05
+**Business Area:** Contact Center
+**Business Project:** Workforce Planning Tool
+**People:** Unidentified
+
+### Summarized Update
+
+North America – App Migration
+• Migrating workforce planning from Databricks to Azure Container Apps in partnership with Mukund and the Platform team. • Current blocker: cannot install required libraries in VS Code due to user access permissions. • Platform and IT are engaged and actively debugging; migration is waiting on resolution of this access issue.
+
+### Raw Update
+
+North America – App Migration
+• Migrating workforce planning from Databricks to Azure Container Apps in partnership with Mukund and the Platform team.
+• Current blocker: cannot install required libraries in VS Code due to user access permissions.
+• Platform and IT are engaged and actively debugging; migration is waiting on resolution of this access issue.
+International & Casino – Existing App
+• International and Casino workforce-planning app remains on Databricks while NA migration proceeds.
+• Met with Nico’s team to review content and requirements.
+• Ingested new CNDT and RCL datasets from the Content team and are building updated visualizations for the team and markets.
+• Next step: integrate call volume forecasts into the app to support staffing and scheduling decisions.
+Risks / Dependencies
+• Delay in business approval for the 2 day agency delay logic postpones full deployment and benefit realization.
+• Platform/IT permissions in VS Code are currently the pacing item for the Azure migration.
+
+---
+
+## Update 24
+
+**Date:** 2025-12-05
+**Business Area:** Marine Insights Analytics Platform (Marine Operations)
+**Business Project:** Historical Data Integration
+**People:** [[carlos_gonzalez_andarcio/overview_carlos_gonzalez_andarcio|Carlos Gonzalez Andarcio]]
+
+### Summarized Update
+
+Key Accomplishments
+• Celebrity Clickstream Pipeline
+o Successfully migrated from the deprecated Celebrity web-data table to the new clickstream data source. o Production pipeline is back online, restoring data freshness to downstream analytics and reporting. • Consumer Scoring Transition
+o Retrained back models on 2023 data.
+
+### Raw Update
+
+Key Accomplishments
+• Celebrity Clickstream Pipeline
+o Successfully migrated from the deprecated Celebrity web-data table to the new clickstream data source.
+o Production pipeline is back online, restoring data freshness to downstream analytics and reporting.
+• Consumer Scoring Transition
+o Retrained back models on 2023 data.
+o Completed feature engineering and inference on back data for 2024–2025 to ensure consistency across time.
+o Generated SHAP values to quantify drivers behind significant changes in consumer scores.
+In Progress / Next
+• Conduct EDA and segmentation of SHAP values to group consumers by the main drivers of score changes.
+• Manually assess correlation vs causation within those segments to ensure we only act on levers that are truly causal before embedding these insights into campaigns, personalization, or product strategies.
+
+---
+
+## Update 25
+
+**Date:** 2025-12-05
+**Business Area:** Silversea Revenue Management
+**Business Project:** Pricing Recommendation Engine (PRE) Automation
+**People:** [[jesse_bausell/overview_jesse_bausell|Jesse Bausell]]
+
+### Summarized Update
+
+Cabin upgrade EDA
+I performed a deep dive into SSC cabin upgrades** by cabin category class. The goal of this EDA is to determine whether cabin upgrades could be tied to sailing performance (relative to dynamic track) and whether SSC business increase revenue by revising this process. Through my EDA, I have determined that some voyages upgrade 60% of their bookings to higher cabin categories, and most passengers are upgraded two cabin category classes.
+
+### Raw Update
+
+Cabin upgrade EDA
+I performed a deep dive into SSC cabin upgrades** by cabin category class. The goal of this EDA is to determine whether cabin upgrades could be tied to sailing performance (relative to dynamic track) and whether SSC business increase revenue by revising this process. Through my EDA, I have determined that some voyages upgrade 60% of their bookings to higher cabin categories, and most passengers are upgraded two cabin category classes. EDA also determined that upgraded purchases are booked closer to sailing date than non-cabin upgrades. This result indicates that voyages with high proportions of cabin upgrades may be lower performing and could benefit from meaningful pricing automations through PRE.
+
+---
+
+## Update 26
+
+**Date:** 2025-12-05
+**Business Area:** PCP Pricing Automation
+**Business Project:** Automated Pricing Expansion
+**People:** [[ignacio_villasmil/overview_ignacio_villasmil|Ignacio Villasmil]]
+
+### Summarized Update
+
+Create v2 of Automated Promo Uploads w/ Added GROUPS condition
+• The code for processing the Sharepoint spreadsheet for automated promo uploads was updated in order to also be able to process GROUP conditions. These conditions are commonly used to create more complex promotional rule conditions based on groupings of several conditions together. This added functionality will increase the coverage/reach of the automated promo framework substantially.
+
+### Raw Update
+
+Create v2 of Automated Promo Uploads w/ Added GROUPS condition
+• The code for processing the Sharepoint spreadsheet for automated promo uploads was updated in order to also be able to process GROUP conditions. These conditions are commonly used to create more complex promotional rule conditions based on groupings of several conditions together. This added functionality will increase the coverage/reach of the automated promo framework substantially. The upgrade was tested & succeeded in the dev environment. What is needed next is to test it in the QA environment with the digital team in order to validate that it works end-to-end. However, this cannot be done until the first release of the automated promo uploads is released by Yassine’s team. For now, a meeting is had with the RCI & CEL OBR teams in order to share this new feature and receive their feedback on its usefulness.
+
+---
+
+## Update 27
+
+**Date:** 2025-12-05
+**Business Area:** PCP Pricing Automation
+**Business Project:** Automated Pricing Expansion
+**People:** [[ignacio_villasmil/overview_ignacio_villasmil|Ignacio Villasmil]]
+
+### Summarized Update
+
+Brainstorm framework for continuous A/B testing further for PCP Pricing Automation tests next year. New framework will be compatible with RCI, CEL, and SSC RMA Testing. • Conversations with others on the team to organize gameplan for this moving forward (including Dave, Kevin, Doug, Evan, Kartik, Jesse)
+
+### Raw Update
+
+Brainstorm framework for continuous A/B testing further for PCP Pricing Automation tests next year. New framework will be compatible with RCI, CEL, and SSC RMA Testing.
+• Conversations with others on the team to organize gameplan for this moving forward (including Dave, Kevin, Doug, Evan, Kartik, Jesse)
+
+---
+
+## Update 28
+
+**Date:** 2025-12-05
+**Business Area:** CEL Revenue Management
+**Business Project:** Elasticity Model Enhancements (PRE4.0)
+**People:** Unidentified
+
+### Summarized Update
+
+Pushed updated elasticity and PRE notebooks from my branch to develop in ADF and ran QA checks; initial QA failed due to intermediate tables created from a hard-coded environment variable.
+
+### Raw Update
+
+Pushed updated elasticity and PRE notebooks from my branch to develop in ADF and ran QA checks; initial QA failed due to intermediate tables created from a hard-coded environment variable.
+
+---
+
+## Update 29
+
+**Date:** 2025-12-05
+**Business Area:** Unclassified
+**People:** Unidentified
+
+### Summarized Update
+
+Discovered the PRE pipeline only executed PRE notebooks and did not run elasticity model notebooks that create/update the elasticity model output table (an input to PRE notebooks). Created a master notebook that sequentially runs all elasticity model notebooks to ensure the elasticity output table is created/updated consistently. Added a run command for the master elasticity notebook into PRE_Lite_main so the PRE pipeline triggers elasticity processing before PRE notebooks run.
+
+### Raw Update
+
+Discovered the PRE pipeline only executed PRE notebooks and did not run elasticity model notebooks that create/update the elasticity model output table (an input to PRE notebooks).
+Created a master notebook that sequentially runs all elasticity model notebooks to ensure the elasticity output table is created/updated consistently.
+Added a run command for the master elasticity notebook into PRE_Lite_main so the PRE pipeline triggers elasticity processing before PRE notebooks run.
+After integrating the master elasticity run, re-ran QA and the pipeline succeeded; the QA output validated as expected.
+Worked closely with Anastasia and Monica to validate the QA output file and confirm the new elasticities meet expectations.
+CEL Team is Targeting release by Friday so the new elasticities will be live on Monday.
+
+---
+
+## Update 30
+
+**Date:** 2025-12-05
+**Business Area:** CEL Revenue Management
+**Business Project:** GTY-Lead Fare Optimization Model 3.0
+**People:** [[michelle_manfrini/overview_michelle_manfrini|Michelle Manfrini]]
+
+### Summarized Update
+
+AD HOC | CEL DART 2.0
+- Gty-Lead gap recommendations were fluctuating week by week due to residuals not being consistent. Began looking into why residuals are falling off and it was an issue with the availability. Residuals are only calculated if the historical tradeup data reaches a certain threshold of bookings.
+
+### Raw Update
+
+AD HOC | CEL DART 2.0
+- Gty-Lead gap recommendations were fluctuating week by week due to residuals not being consistent. Began looking into why residuals are falling off and it was an issue with the availability. Residuals are only calculated if the historical tradeup data reaches a certain threshold of bookings. This is dependent on both GTYs and physical categories being open as an option and accurate historic availability data is crucial for this. This analysis revealed an inconsistency between the live and past data because my queries of capacity for future sailings did not align with the feature stores. prd_revenue_mgmt_bu.feature_stores.ship_sdt_category_occ_avail_pricing. This explained why certain categories were falling off even if AS400 showed they were open.
+- CEL team is also interested on adjusting the residual calculations to group trade-up by lead type and market to better represent the booking behavior. Since these groups will be more granular, we are expanding the look back window to 8 weeks and averaging monthly instead of weekly. This will help reach the minimum bookings threshold we have set, allow the percentage of sailings adjusted by DART to increase, and have more accurate trade-up predictions with the increased features for the groupings.
+- Added weights in 2.0 models to give more importance to recent booking data, this will allow the model to capture recent changes in trade-up trends. Validating all changes with CEL team.
+CEL Revenue Management | Category-Gapping 3.0
+- Met with CEL team on 12/2/25 to review progress on model. Team would like to test new features such as days at sea which was significant in SPI and rdss groupings beyond Europe.
+- Training data is imbalanced and leading to overpredicting majority class. I am testing sample weights to account for this issue.
+- Capacity remaining is also significant to booking behavior, discussed how to include this as a feature and decided on using tier’s percentage of available inventory. Will test and consider other approaches to considering inventory in model.
+- If sample weights and availability features are not successful, can also try a multi-output regression approach.
+
+---
+
+## Update 31
+
+**Date:** 2025-12-05
+**Business Area:** CEL Revenue Management
+**Business Project:** Elasticity Model Enhancements (PRE4.0)
+**People:** [[aagam_shah/overview_aagam_shah|Aagam Shah]]
+
+### Summarized Update
+
+This week I focused on understanding the MTRB process and started making changes to incorporate the cat-class level SPI scores and generate a cat-class model. In order to do that, firstly, the whole MTRB process is a combination of the following:
+Pulling MTRB Data → Gathering booking level info, at the required granularity (Done)
+SPI Target Generation
+SPI Targets (Done)
+Here we were considering the average SPI Score to calculate the target booked position. Changed it to median score to ensure that the score doesn’t get skewed by a few high outliers.
+
+### Raw Update
+
+This week I focused on understanding the MTRB process and started making changes to incorporate the cat-class level SPI scores and generate a cat-class model.
+In order to do that, firstly, the whole MTRB process is a combination of the following:
+Pulling MTRB Data → Gathering booking level info, at the required granularity (Done)
+SPI Target Generation
+SPI Targets (Done)
+Here we were considering the average SPI Score to calculate the target booked position. Changed it to median score to ensure that the score doesn’t get skewed by a few high outliers.
+Curve Fitting (In Progress)
+Most of the functions in curve fitting are aggregating at a meta product level, need to change the functions to ensure the cat-class granularity is added
+MTRB Adjusted Booked Position (Not Started)
+MTRB Adjustments (Not Started)
+MTRB Output (Not Started)
+
+---
+
+## Update 32
+
+**Date:** 2025-12-05
+**Business Area:** RCI Revenue Management
+**Business Project:** PRE 4.0 Elasticity Enhancements
+**People:** [[lamis_amer/overview_lamis_amer|Lamis Amer]]
+
+### Summarized Update
+
+· Performed code refactoring, broke it down into separate notebooks + master driven - which should after PRE pricing recommendations are created then generates the var_norm based recs and before business rules are applied. The Master Driver notebook should run the entire pipeline, writes the table with pre 4.0 + optimal recs to uc. · Completed 2 reporting notebooks: (1) should run on Monday as part of PRE, calculates some metrics and KPIs (vs PRE 4.0 outputs) such as: %null recs due to missing features, statistics related to optimal and pre price change recs, % counter intuitive cases, statistics related to gap to track ask.
+
+### Raw Update
+
+· Performed code refactoring, broke it down into separate notebooks + master driven - which should after PRE pricing recommendations are created then generates the var_norm based recs and before business rules are applied. The Master Driver notebook should run the entire pipeline, writes the table with pre 4.0 + optimal recs to uc.
+· Completed 2 reporting notebooks: (1) should run on Monday as part of PRE, calculates some metrics and KPIs (vs PRE 4.0 outputs) such as: %null recs due to missing features, statistics related to optimal and pre price change recs, % counter intuitive cases, statistics related to gap to track ask. (2) A report to run on Wednesday to compare optimization results against the Rev Mgt analysts actual pricing decisions made for each week. KPIs calculated include abs deviation from actual price change (for both PRE 4.0 and optimal recs) + visuals of the results (attached here) https://royal-it.atlassian.net/browse/RMA-4945?focusedCommentId=1211176
+· Investigated cases where we may need to select the PRE 4.0 (norm_var based recs) over the optimization results. With PRE 4.0 we handled cases where some important model features are null (like the booked_position_alloc_min) by using the priors generated based on the median elasticity value for this group based on other non-missing values (meta - ship class - cc - month - holiday flag -  wts). Since in the price change calculation we’re directly using these treated elasticities, we will always have price change recs even though the model fails to give predictions.
+·         In optimization since we're directly using the model object this will always be null if a feature is missing and technically optimization will fail to run. Depending on the proportion of missing data, so far these have been 5% but I'll be logging this metric for future monitoring.
+
+---
+
+## Update 33
+
+**Date:** 2025-12-05
+**Business Area:** RCI Revenue Management
+**Business Project:** GTY-Lead Fare Optimization Model
+**People:** [[atefeh_mahdavi/overview_atefeh_mahdavi|Atefeh Mahdavi]]
+
+### Summarized Update
+
+Analysis of Promo Code Trends and REPLACEMENT_VALUE Promotions Across WTS Buckets
+I conducted an analysis of promo code trends across different WTS buckets. Interestingly, we observe a higher percentage for TACTICALS in close-in WTS, similar to REPLACEMENT_VALUE. These results cover all meta-products (see attached).
+
+### Raw Update
+
+Analysis of Promo Code Trends and REPLACEMENT_VALUE Promotions Across WTS Buckets
+I conducted an analysis of promo code trends across different WTS buckets. Interestingly, we observe a higher percentage for TACTICALS in close-in WTS, similar to REPLACEMENT_VALUE. These results cover all meta-products (see attached).
+I also performed a deeper analysis on REPLACEMENT_VALUE promotions, which are price replacements on specific categories (particularly GTY’s) and can typically go up to 20% below prevailing rates. This analysis focused on different meta-products, especially 7N and Short Caribbean.
+Based on my discussion with Eddie, these promotions have traditionally been offered within the Final Payment window (last 90 days before sailing). Recently, due to a slow demand environment, the scope has expanded to include sailings through June of next year. These promotions are most often applied to off-peak sailings that are harder to fill.
+For this analysis, I considered all sailings with booking dates starting in July 2025. The results show that almost all such promotions come from just two meta-products: 7N and Short Caribbean.
+Additionally, I analyzed the share of these promotions as a percentage of total bookings within each WTS bucket for 7N and Short Caribbean. The attached table (pax_promo_in_bucket) shows:
+·         pax_promo_in_bucket: Number of passengers who booked using the specific promotion within that WTS bucket.
+o    Example: 12,160 means 12,160 passengers booked 7N Caribbean in the 0–7 WTS window using REPLACEMENT_VALUE.
+·         total_pax_bucket: Total number of passengers in that WTS bucket for the meta-product, across all promotions.
+o    Example: 69,464 means there were 69,464 total 7N Caribbean bookings in the 0–7 WTS bucket.
+·         pct_of_bucket (%): Percentage of the bucket that came from that promotion.
+o    Example: 17.50% means 17.5% of all 0–7 WTS 7N Caribbean bookings came from REPLACEMENT_VALUE.
+
+---
+
+## Update 34
+
+**Date:** 2025-12-05
+**Business Area:** PROPEL
+**Business Project:** Offer Personalization Enhancement
+**People:** [[glen-erik_cortez/overview_glen-erik_cortez|Glen-Erik Cortez]], [[alejandro_aristizabal-sanchez/overview_alejandro_aristizabal-sanchez|Alejandro Aristizabal-Sanchez]]
+
+### Summarized Update
+
+Dynamic Test/Control: Expanded to all ships in production
+2. Uplift Model: Running on BY and SM. Need to do a more robust statistical analysis to validate if there is a significant uplift before expanding to the rest of the fleet.
+
+### Raw Update
+
+1.  Dynamic Test/Control: Expanded to all ships in production
+2.  Uplift Model: Running on BY and SM. Need to do a more robust statistical analysis to validate if there is a significant uplift before expanding to the rest of the fleet.
+3.  Alejandro changing jobs for a better opportunity. Knowledge Transfer sessions going well but the <1 week notice is difficult.
+4.  Awareness only offers for Holidays: this is already setup for 2025 and 2026. Will decide to turn it off or continue based on the feedback Andrew gets from the ships for Thanksgiving sailings.
+5.  Offshore support team for ship requests: I am reviewing the draft form with the service now developer next week so I hope to have this form up and running before the Holidays. Andrew can help communicate the change with the ships.
+
+---
+
+## Update 35
+
+**Date:** 2025-12-05
+**Business Area:** Revenue Management Automation (RCI)
+**Business Project:** PRE 4.0 Elasticity Enhancements
+**People:** [[glen-erik_cortez/overview_glen-erik_cortez|Glen-Erik Cortez]]
+
+### Summarized Update
+
+Validation framework:
+a. Added to all TAP and TAP CEL project workflows which are in databricks. Goes to production end of this week
+2.
+
+### Raw Update
+
+1.  Validation framework:
+a.  Added to all TAP and TAP CEL project workflows which are in databricks. Testing is complete. Goes to production end of this week
+2.  Other Frameworks:
+a.  Discussions on packaging frameworks, deploying as whl files, and leveraging them across all rev mgmt projects
+3.  Adding Elasticity training to the PRE Lite ADF workflow, and productionizing it after thorough testing
+4.  Feature store table migration: provided guidance to Data Engineering on tables and schedules.
+5.  Operations:
+a.  Support debugging issues
+b.  Monitoring CI/CD deployments, PRs
+
+---
+
+_Source: 20251205 - Weekly Rafeh & Matt Updates (Raw).docx_
